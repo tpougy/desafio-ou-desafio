@@ -1,0 +1,64 @@
+/* use this for production https://rawcdn.githack.com/thomazpougy/desafio-ou-desafio/94379cc6486f9c8a322fc5cffd11fa3caef5714e/style.css */
+/* use this for development https://raw.githack.com/thomazpougy/desafio-ou-desafio/main/style.css */
+
+/* ELEMENTOS */
+body {
+    font-family: Arial,sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color:LightBlue;
+}
+
+#botao_desafio{
+    margin-top: 5rem;
+    display: block;
+    font-weight: bold;
+}
+
+#botao_voltar{
+    display: none;
+}
+
+#carta{
+    height: 26rem;
+    width: 15rem;
+    background-color: LightGoldenRodYellow;
+    margin: 2rem auto 2rem auto;
+    padding-top: 0.5rem;
+}
+
+.corpo_desafio{
+    height: 14rem;
+    width: 13.5em;
+    background-color: Gainsboro;
+    margin: 0.5rem auto;
+    padding-top: 1.5rem;
+    padding-right: 0.5rem;
+    padding-left: 00.5rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.prenda{
+    margin: 0 auto;
+    padding: 5% 5%;
+}
+
+/* TEXTO */
+.titulo_prenda{
+    font-weight: bold;
+}
+
+/* DINAMICA */
+.estado0{
+    position: absolut;
+    transform: perspective(500px) rotatey(0deg);
+    transition: 2s ease;
+    backface-visibility: hidden;
+}
+
+.estado1{
+position: absolut;
+transform: perspective(500px) rotatey(360deg);
+transition: 2s ease;
+backface-visibility: hidden;
+}
