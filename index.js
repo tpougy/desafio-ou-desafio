@@ -79,36 +79,36 @@ function clicou(modo){
 
 ///////////////////// Event Triggers /////////////////////////////
 
+$("#check-cafe").click(function(){if(JSON.parse($(this).val())){$(this).val("false")}else{$(this).val("true")}});
+
+$("#check-fogo").click(function(){if(JSON.parse($(this).val())){$(this).val("false")}else{$(this).val("true")}});
+
+$("#check-proibido").click(function(){if(JSON.parse($(this).val())){$(this).val("false")}else{$(this).val("true")}});
+
+$("#check-ditador").click(function(){if(JSON.parse($(this).val())){$(this).val("false")}else{$(this).val("true")}});
+
 // cartas selecionadas
 $("#botao-jogar").click(function(){
-  let seletor;
+  let data = [];
 
   if( $("#botao-jogar").text() == "Jogar!" ){
     $("#botao-jogar").text("Confirma?");
   }else{
     $("#seletor").css("display","none")
     $("#jogo").css("display","block")
-    i = 0
-    if($("#check-cafe").val()){
-      data[i]=get_cartas_data("cafe")
-      i++;
-    }else if($("#check-fogo").val()){
-      data[i]=get_cartas_data("fogo")
-      i++;
-    }else if($("#check-proibido").val()){
-      data[i]=get_cartas_data("proibido")
-      i++;
-    }else if($("#check-ditador").val()){
-      data[i]=get_cartas_data("ditador")
-    }
+
+    
+    $.when(get_cartas_data(cartas))
 
     complemento_aleatorio=get_aleatorio()
 
-    for(i=0;i<data.length();i++){
-      cartas_total.push(data[i].cartas)
-    }
+    // console.log(data)
 
-    ranNums=gera_ranNums(cartas_total)
+    // for(i=0;i<data.length();i++){
+    //   cartas_total.push(data[i].cartas)
+    // }
+
+    // ranNums=gera_ranNums(cartas_total)
   }
 
 });
@@ -144,15 +144,6 @@ $("#botao_voltar").click(function(){
 });
 
 
-$("#botao-jogar").click(function(){
-  if( $("#botao-jogar").text() == "Jogar!" ){
-    $("#botao-jogar").text("Confirma?");
-  }else{
-    $("#seletor").css("display","none")
-    $("#jogo").css("display","block")
-  }
-});
-
 /////////////////////////////// Requisições /////////////////////////////
 
 
@@ -163,7 +154,7 @@ function get_cartas_data(ref){
     type: "get",
     dataType: 'text',
     success: function(response) {
-      return JSON.parse(response); // convert to object
+    console.log(JSON.parse(response)); // convert to object
     },
     error: function(err) {
       console.log(err);
@@ -190,10 +181,10 @@ function get_aleatorio() {
 ////////////////////////// Execução /////////////////////////////////
 
 // declaração das variáveis globais
-var x = -1
-var cartas_total
-var complemento_aleatorio
-var ranNums
+var x = -1;
+var cartas_total;
+var complemento_aleatorio;
+var ranNums;
 
 
 

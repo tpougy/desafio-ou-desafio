@@ -1,0 +1,82 @@
+{
+    "cafe" : [
+        {
+        "indice": 0,
+        "desafio": "Cafe",
+        "prenda": "Tome 4 shots!",
+        "tipo": "aleatorio" 
+        },
+        {
+        "indice": 1,
+        "desafio": "Cafe",
+        "prenda": "Tom 1 shot!",
+        "tipo": "aleatorio" 
+        },
+        {
+        "indice": 2,
+        "desafio": "Cafe",
+        "prenda": "Tome 2 shots!",
+        "tipo": "normal" 
+        }
+    ],
+    "fogo" : [
+        {
+        "indice": 0,
+        "desafio": "Fogo",
+        "prenda": "Tome 4 shots!",
+        "tipo": "aleatorio" 
+        },
+        {
+        "indice": 1,
+        "desafio": "Fogo",
+        "prenda": "Tom 1 shot!",
+        "tipo": "aleatorio" 
+        },
+        {
+        "indice": 2,
+        "desafio": "Fogo",
+        "prenda": "Tome 2 shots!",
+        "tipo": "normal" 
+        }
+    ],
+    "proibido" : [
+        {
+        "indice": 0,
+        "desafio": "Proibido",
+        "prenda": "Tome 4 shots!",
+        "tipo": "aleatorio" 
+        },
+        {
+        "indice": 1,
+        "desafio": "Proibido",
+        "prenda": "Tom 1 shot!",
+        "tipo": "aleatorio" 
+        },
+        {
+        "indice": 2,
+        "desafio": "Proibido",
+        "prenda": "Tome 2 shots!",
+        "tipo": "normal" 
+        }
+    ],
+    "ditador" : [
+        {
+        "indice": 0,
+        "desafio": "Ditador",
+        "prenda": "Tome 4 shots!",
+        "tipo": "aleatorio" 
+        },
+        {
+        "indice": 1,
+        "desafio": "Ditador",
+        "prenda": "Tom 1 shot!",
+        "tipo": "aleatorio" 
+        },
+        {
+        "indice": 2,
+        "desafio": "Ditador",
+        "prenda": "Tome 2 shots!",
+        "tipo": "normal" 
+        }
+    ]
+}
