@@ -1,82 +1,765 @@
 {
     "cafe" : [
         {
-        "indice": 0,
-        "desafio": "Cafe",
-        "prenda": "Tome 4 shots!",
-        "tipo": "aleatorio" 
+          "desafio": "Aja como um cachorro e busque um objeto para a pessoa mais alta da roda.",
+          "prenda": "Tome 2 shots!",
+          "tipo": "normal"
         },
         {
-        "indice": 1,
-        "desafio": "Cafe",
-        "prenda": "Tom 1 shot!",
-        "tipo": "aleatorio" 
+          "desafio": "Cheire o pé de 3 pessoas da roda e classifique pelo fedor!",
+          "prenda": "Tome 2 shots!",
+          "tipo": "normal"
         },
         {
-        "indice": 2,
-        "desafio": "Cafe",
-        "prenda": "Tome 2 shots!",
-        "tipo": "normal" 
+          "desafio": "Deixe uma menina passar maquiagem em você!",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Passe maquiagem sem a ajuda de um espelho...",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Sorte sua!<br><br>Você pode escolher alguém para levar a próxima consequência que você sofrer!",
+          "prenda": "Não dá para arregar!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Se FUD#$%!!!<br><br>Você sofrerá o desafio com a proxima pessoa que sofrer um.",
+          "prenda": "Tome o dobro do que estiver estabelecido no desafio!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Peça para a @ arrumar o seu cabelo do jeito que ela quiser e deixe-o assim pelo resto do jogo.",
+          "prenda": "Tome 3 shots!",
+          "tipo": "aleatorio"
+        },
+        {
+          "desafio": "Ponha uma venda nos olhos e fique vendado por 1 rodada.",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Dê cavalinho para a ",
+          "prenda": "Tome 2 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Dê um beijo frances no umbigo de alguém a sua escolha!",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Escolha 3 pessoas para tomarem um shot.",
+          "prenda": "Não tem como arregar!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Levante a menor pessoa da roda como se ela fosse um bebê.",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Sorte sua!<br><br>Você pode escolher alguém para levar a próxima consequência que você sofrer!",
+          "prenda": "Não tem como arregar!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Se FUD#$%!!!<br><br>Você sofrerá o desafio com a proxima pessoa que sofrer um.",
+          "prenda": "Tome o dobro do que estiver estabelecido no desafio!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Sorte sua!<br><br>Você pode escolher alguém para levar a próxima consequência que você sofrer!",
+          "prenda": "Não tem como arregar!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Vende seus olhos por 5 jogadas",
+          "prenda": "Tome 4 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Dance como o Michel Jackson",
+          "prenda": "Tome 2 shots",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Deite no chão como uma estrela do mar por 10 segundos",
+          "prenda": "Tome 2 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Coma um pedaço de guardanapo!",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Deixe a @ desenhar um bigode em você",
+          "prenda": "Tome 3 shots!",
+          "tipo": "aleatorio"
+        },
+        {
+          "desafio": "Desfile como uma pessoa do sexo oposto. Tenha classe!",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Beba como um cachorro!",
+          "prenda": "Arregou? Tome 2 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Diga a todos sua senha do Facebook!",
+          "prenda": "Tome 4 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Uive para a lua 3 vezes!",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Liguei para alguém e fique grunhindo!",
+          "prenda": "Tome 4 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Enfie o dedo no nariz!",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Mande a mensagem - eu te amo - para qualquer contato",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Faça 10 flexões. Você tem 10 segundos!",
+          "prenda": "Não conseguiu? Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Deixe alguém desenhar uma piroca de baton na sua testa!",
+          "prenda": "Tome 4 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Esfregue na perna de alguém como se fosse um cachorro.",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Cite 8 apelidos para pênis. Você tem 15 segundos!",
+          "prenda": "Não conseguiu? Tome 2 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Cite 8 apelidos para vagina. Você tem 20 segundos!",
+          "prenda": "Não conseguiu? tome 2 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Mumifique sua cabeça com papel higiênico por 1 rodada!",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Deixe alguém cuspir água na sua cara.",
+          "prenda": "Tome 4 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Tire uma selfie usando os pés!",
+          "prenda": "Não conseguiu? Tome 2 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Tire uma foto para lembrar desta noite. Depois, tome 1 shot!",
+          "prenda": "Tome 2 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Arraste a bunda no chão como um cachorro!",
+          "prenda": "Tome 4 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Dê uma cambalhota!",
+          "prenda": "Não conseguiu? Tome 2 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Deixe a @ dar uma lambida no seu rosto.",
+          "prenda": "Tome 3 shots!",
+          "tipo": "aleatorio"
+        },
+        {
+          "desafio": "Seja o mordomo da @ pela próxima rodada!",
+          "prenda": "Tome 1 shots por cada desobediência às ordens dela!",
+          "tipo": "aleatorio"
+        },
+        {
+          "desafio": "Grite a primeira coisa que vem à sua cabeça!!!",
+          "prenda": "Não tem como arregar!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Gira uma garrafa no meio da roda. Massagei a pessoa para qual a boca apontar por 5 minutos!",
+          "prenda": "Parou antes do tempo? Tome 3 shots",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Pelos velhos tempos! Receba um Antônio Nunes da ",
+          "prenda": "Tome 4 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "De um beijo na testa ao estilo “tiazona” em todos da roda!",
+          "prenda": "Tome 2 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Todo poderoso! Escolha 3 pessoas para tomar 10 doses, deixe que elas dividam...",
+          "prenda": "Não tem como arregar!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Segure a mão do jogador à sua esquerda e façam tudo de mãos dadas até que os dois terminem suas bebidas.",
+          "prenda": "Arregaram? Tomem 4 shots cada um!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Encoste a sua língua no seu nariz, se não conseguir encoste sua língua no nariz de outro jogador!",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Somelier!<br><br>Beba duas doses de bebida diferente da sua",
+          "prenda": "Tome 3 shots da sua bebida!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Leve um tapa na cara do seu melhor amigo!",
+          "prenda": "Tome 2 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "De uma lambida em um sabonete. Seu boca suja!",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Deixe o jogador mais velho completar sua monocelha com batom!",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Dispute uma queda de braço com o jogador mais forte. Quem perder toma 2 shots!",
+          "prenda": "Tome 4 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Fique de 4 e seja a mesa do jogo pelas próximas 2 jogadas!",
+          "prenda": "Tome 4 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "O último jogador a dar um tapa na testa toma 1 shot!",
+          "prenda": "Não tem com arregar!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Segure sua bebida com as duas mãos e beba sem dobrar os braços!",
+          "prenda": "Tome 2 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Escove os dentes com o dedo de outro jogador!",
+          "prenda": "Tome 1 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Deixe seu melhor amigo jogar um copo de àgua na sua cara! Dica: grave em slo-mo.",
+          "prenda": "Tome 2 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Deite no chão como uma prancha e deixe alguém surfar em você!",
+          "prenda": "Tome 2 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Gêmeos!<br><br>Escolha um jogador, ele deve beber a mesma quantidade que você por 2 rodadas",
+          "prenda": "Não tem como arregar",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Gire uma garrafa no meio da roda. Troque de lugar e bebida com quem a boca apontar!",
+          "prenda": "Não da para arregar...",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Escolha alguém para ser o seu ESPELHO, sempre que você beber ela bebe também!",
+          "prenda": "Nao da para arregar...",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Coloque um pouco da bebida de todo mundo no seu copo e tome um GOLÃO!",
+          "prenda": "Arregou? Ta com nojinho? Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "AGORA É SUA VEZ!<br><br>Escolha um desafio para qualquer pessoa da roda!",
+          "prenda": "Se a pessoa arregar tomem juntos 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Se FUD#$%!<br><br>Deixe que o grupo escolha um desafio para você!",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "ESTÁ EM SUAS MÃOS!<br><br>Jogue uma moeda. Se der cara tire o próximo desafio e escolha alguem para cumprí-lo, se der coroa faça-o você mesmo!",
+          "prenda": "Quem arregar toma 2 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Tome um shot ao estilo tequilero!",
+          "prenda": "Não dá para arregar...",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Faça o desafio da próxima pessoa com suas mãos no bolso dela!",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
         }
-    ],
+      ],
     "fogo" : [
         {
-        "indice": 0,
-        "desafio": "Fogo",
-        "prenda": "Tome 4 shots!",
-        "tipo": "aleatorio" 
+          "desafio": "Jogue pedra, papel ou tesoura com a @. O vencedor faz um solo de bateria na bunda do perdedor.",
+          "prenda": "Tom 1 shot!",
+          "tipo": "aleatorio"
         },
         {
-        "indice": 1,
-        "desafio": "Fogo",
-        "prenda": "Tom 1 shot!",
-        "tipo": "aleatorio" 
+          "desafio": "Lamba a orelha direita da @. Sussure uma sacanagem.",
+          "prenda": "Tome 2 shots!",
+          "tipo": "aleatorio"
         },
         {
-        "indice": 2,
-        "desafio": "Fogo",
-        "prenda": "Tome 2 shots!",
-        "tipo": "normal" 
+          "desafio": "Chupe o dedo da ",
+          "prenda": "Tome 2 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Escolha alguém e lamba sua bochecha.",
+          "prenda": "Tome 2 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Se deu bem!<br><br>Desafie duas pessoas do jogo a darem um selinho.",
+          "prenda": "Que cada um (inclusive você!) tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Lamba um espelho da maneira mais sexy que puder.",
+          "prenda": "Tome 2 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Chupe seu dedo indicador da maneira mais sexy. Enquanto encara a pessoa a sua frente.",
+          "prenda": "Tome 2 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Tire sua camisa e dançe dança do ventre por 21 segundos.",
+          "prenda": "Tome 5 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "DESAFIO DUPLO!<br><br>Encene uma cena de sexo de um filme debaixo de um edredom com outras duas pessoas.",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Dê uma coçada no saco ou ppk no melhor estilo caminhoneiro em greve no meio da roda!",
+          "prenda": "Tome 4 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Beije a bochecha da @ e faça uma serenata pra ela na frente de todos!",
+          "prenda": "Tome 2 shots!",
+          "tipo": "aleatorio"
+        },
+        {
+          "desafio": "Faça um Lap Dance de 20 segundos na pessoa mais velha da roda.",
+          "prenda": "A pessoa não gostou? Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "As duas pessoas ao seu lado devem tirar par ou impar. O ganhador vai massagear sensualmente você.",
+          "prenda": "O ganhador arregou? Que tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Receba um cuecão/calcinhão da ",
+          "prenda": "Tome 4 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "De um tapao na bunda da ",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "De um selinho na ",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Dê uns pegas na parede. Mostre pra geral sua pegada!",
+          "prenda": "Tome 4 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Jogue pedra, papel ou tesoura com a @. O vencedor faz um solo de bateria na bunda do perdedor.",
+          "prenda": "Tome 1 shot!",
+          "tipo": "aleatorio"
+        },
+        {
+          "desafio": "Demonstre sua posição sexual preferida",
+          "prenda": "Tome 4 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Imite uma vaca, deixe alguém te ordenhar",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Desenhe um 8 na parede com sua bunda!",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Deixe um jogador passar o cartão de crédito na sua bunda",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Beije um jogador no lugar que ele escolher",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Finja parir uma garrafa!",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Fique de quatro e deixe a @ te dar um tapa na bunda.",
+          "prenda": "Tome 3 shots!",
+          "tipo": "aleatorio"
+        },
+        {
+          "desafio": "Escolha 2 pessoas para darem um beijinho",
+          "prenda": "Elas arregaram? Que tomem 2 shots cada!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Deixe uma pessoa à sua escolha te beijar onde ela quiser!",
+          "prenda": "Tome 1 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Gire uma garrafa na roda. Beije o jogador pra qual a boca apontar onde ele quiser!",
+          "prenda": "Tome 4 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Gire uma garrafa na roda. Dê um bodyshot no umbigo de quem a boca apontar!",
+          "prenda": "Tome 3 shots",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Ponha uma venda e gire no meio da roda, beije a pessoa que estiver à sua frente ao final dos 10 segundos.",
+          "prenda": "Tome 4 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Use suas calças do avesso pela próxima rodada!",
+          "prenda": "Tome 4 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "De um beijo em quem você nunca beijou antes!",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Faça um Lap Dance na ",
+          "prenda": "Tome 4 shots",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Arrasto! Diga a todos um segredo de alguém da roda sem contar quem é. Se a pessoa assumir o B.O. você bebe 3 doses!",
+          "prenda": "Arregou? Tome 4 doses",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Faça o quadradinho. Se seus amigos não gostarem tome um shot!",
+          "prenda": "Tome 2 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Faça você mesmo uma massagem sensual, como um show...",
+          "prenda": "Tome 2 shots",
+          "tipo": "normal"
         }
-    ],
+      ],      
     "proibido" : [
         {
-        "indice": 0,
-        "desafio": "Proibido",
-        "prenda": "Tome 4 shots!",
-        "tipo": "aleatorio" 
+          "desafio": "Troque de camiseta com a @.",
+          "prenda": "Tome 4 shots!",
+          "tipo": "aleatorio"
         },
         {
-        "indice": 1,
-        "desafio": "Proibido",
-        "prenda": "Tom 1 shot!",
-        "tipo": "aleatorio" 
+          "desafio": "Troque de camiseta com a ",
+          "prenda": "Tome 4 shots!",
+          "tipo": "normal"
         },
         {
-        "indice": 2,
-        "desafio": "Proibido",
-        "prenda": "Tome 2 shots!",
-        "tipo": "normal" 
+          "desafio": "Sente no colo de alguém por 5 jogadas.",
+          "prenda": "Tome 2 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Escolha qualquer cor de roupa que está vestindo. Todos outros jogadores devem tirar toda roupa de mesma cor por duas jogadas!",
+          "prenda": "Tome 4 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Troque duas peças de roupa com alguem do sexo oposto no banheiro e fique com elas por 1 rodada.",
+          "prenda": "Tome 5 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Desengate o sutiã da menina mais proxima com apenas uma mão em menos de 7 segudos.",
+          "prenda": "Não conseguiu? Tome 2 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Escolha alguém, o número de roupas que ele tirar, você bebe em doses!",
+          "prenda": "Tome 4 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Tire uma peça de roupa da @ com os dentes.",
+          "prenda": "Tome 3 shots!",
+          "tipo": "aleatorio"
+        },
+        {
+          "desafio": "Tire uma peça de roupa por 2 jogadas",
+          "prenda": "Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Vista todas as suas roupas do avesso. Privacidade de cu é rola!",
+          "prenda": "Tome 4 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Pelo resto da noite, toda vez que tiver que ir fazer xixi você deve levar alguém do sexo oposto com você!",
+          "prenda": "Toda vez que arregar você deve tomar 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Tire duas peças de roupa por 2 jogadas.",
+          "prenda": "Tome 4 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Dê um bodyshot nos peitos da ",
+          "prenda": "A pessoa arregou? Tome você 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Troque de calças com a @. Vocês tem direito à privacidade.<br><br>( ͡° ͜ʖ ͡°)",
+          "prenda": " Tome 4 shots!",
+          "tipo": "aleatorio"
+        },
+        {
+          "desafio": "Tire 2 peças de roupa por 4 jogadas.",
+          "prenda": "Tome 5 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Tire uma peça de roupa pelo resto do jogo!",
+          "prenda": "Tome 4 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Tire 2 peças de roupa por 4 jogadas.",
+          "prenda": "Tome 5 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Faça um boquete em uma garrafa!",
+          "prenda": "Tome 4 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Tire uma peça de roupa pelo resto do jogo!",
+          "prenda": "Tome 4 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Deixe a @ apertar seus peitos!",
+          "prenda": "Tome 4 shots!",
+          "tipo": "aleatorio"
+        },
+        {
+          "desafio": "Deixe a @  apertar sua bunda!",
+          "prenda": "Tome 4 shots!",
+          "tipo": "aleatorio"
+        },
+        {
+          "desafio": "Diga a todos o lugar mais inusitado que você já transou! Aqueles que também fizeram tomam um shot!",
+          "prenda": "Arregou?  Tome 3 shots!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Retire as meias do jogador à sua esquerda usando os dentes!",
+          "prenda": "Tome 1 shot!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Pelas próxima rodada para cada copo que a @ terminar de beber você deve tirar uma peça de roupa!",
+          "prenda": "Tome 2 shots para cada peça de roupa que nao tirar!",
+          "tipo": "aleatorio"
         }
-    ],
+      ],      
     "ditador" : [
         {
-        "indice": 0,
-        "desafio": "Ditador",
-        "prenda": "Tome 4 shots!",
-        "tipo": "aleatorio" 
+          "desafio": "Desafio Geral!<br><br>Joguem 1 rodada de - Eu Nunca -, você começa!",
+          "prenda": "Não da para arregar!",
+          "tipo": "normal"
         },
         {
-        "indice": 1,
-        "desafio": "Ditador",
-        "prenda": "Tom 1 shot!",
-        "tipo": "aleatorio" 
+          "desafio": "Desafio Geral!<br><br>Cante uma música sertaneja, quem não souber cantar junto tome 2 shots!",
+          "prenda": "Não tem como arregar!",
+          "tipo": "normal"
         },
         {
-        "indice": 2,
-        "desafio": "Ditador",
-        "prenda": "Tome 2 shots!",
-        "tipo": "normal" 
+          "desafio": "Nova Regra<br><br>É proibido falar NÃO pelo resto do jogo!",
+          "prenda": "Quem falar toma 1 shot!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Desafio Geral! Cantem “Parabéns” para a pessoa mais nova da mesa, detalhe: batam palmas com os pés!",
+          "prenda": "Não tem como arregar!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "O Mestre mandou!<br><br>Molotov humano... Quem fuma bebe!",
+          "prenda": "O mestre mandou não dá para arregar...",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "O Mestre mandou!<br><br>Quem não tiver ficha na polícia toma 1 shot!",
+          "prenda": "O mestre mandou não dá para arregar...",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "O Mestre mandou!<br><br>Todos os solteiros tomam 1 shot!",
+          "prenda": "O mestre mandou não dá para arregar...",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "O Mestre mandou!<br><br>Quem estiver na coleira toma 1 shot!",
+          "prenda": "O mestre mandou não dá para arregar...",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "O Mestre mandou!<br><br>Que tomem 1 shot as damas!",
+          "prenda": "O mestre mandou não dá para arregar...",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "O Mestre mandou!<br><br>O jogador mais bebâdo toma 1 shot(e fica mais bêbado!).",
+          "prenda": "O mestre mandou não dá para arregar...",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "O Mestre mandou!<br><br>Se você estiver bêbado tome 1 shot! Escolha alguém pra beber junto com você!",
+          "prenda": "O mestre mandou não dá para arregar...",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "O Mestre mandou<br><br>O jogador mais magro toma 1 shot!",
+          "prenda": "O mestre mandou não dá para arregar...",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "O Mestre mandou!<br><br>Os homens tomam 1 shot!",
+          "prenda": "O mestre mandou não dá para arregar...",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "O Mestre mandou!<br><br>O jogador mais bonito toma 2 shots. Vai ser bonito assim na PQP!",
+          "prenda": "O mestre mandou não dá para arregar...",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Desafio Geral!<br><br>Geral bebe tudo do que estiver segurando!",
+          "prenda": "Não tem como arregar!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "O Mestre mandou!<br><br>Quem estiver de verde toma 1 shot. Foda-se o meio ambiente!",
+          "prenda": "O mestre mandou não dá para arregar...",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "O Mestre mandou!<br><br>Quem estiver usando sutiã toma 1 shot!",
+          "prenda": "O mestre mandou não dá para arregar...",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "O Mestre mandou!<br><br>Quem nunca fez sexo anal toma 1 shot!",
+          "prenda": "O mestre mandou não dá para arregar...",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "O Mestre mandou!<br><br>Os baixinhos tomam 1 shot!",
+          "prenda": "O mestre mandou não dá para arregar...",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Nova Regra!<br><br>Pela próxima rodada, termine todas as suas frase dizendo: Câmbio!",
+          "prenda": "Tome 1 shot sempre que não falar!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Nova Regra!<br><br>Pela próxima rodada, você só pode se locomover usando sua motinha invisível!",
+          "prenda": "Tome 1 shot sempre que não usa-la!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "Nova Regra!<br><br>Pela próxima rodada, sempre que ouvir a palavra -granada!- jogue-se no chão!",
+          "prenda": "Tome 1 shot sempre que não se jogar!",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "O Mestre mandou!<br><br>Quem transou essa semana bebe 1 shot!",
+          "prenda": "O mestre mandou não dá para arregar...",
+          "tipo": "normal"
+        },
+        {
+          "desafio": "DESAFIO GERAL!<br><br>Joguem todos o JOGO DA CARTA! Quem deixar a carta cair toma um shot!",
+          "prenda": "Tome um shot!",
+          "tipo": "normal"
         }
-    ]
+      ]      
 }
