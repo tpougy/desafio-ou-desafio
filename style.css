@@ -1,11 +1,29 @@
 /* use this for production https://rawcdn.githack.com/thomazpougy/desafio-ou-desafio/94379cc6486f9c8a322fc5cffd11fa3caef5714e/style.css */
 /* use this for development https://raw.githack.com/thomazpougy/desafio-ou-desafio/main/style.css */
 
+/* SECTIONS */
+#jogo{
+    display: none;
+}
+
+#seletor{
+    display: block;
+}
+
 /* ELEMENTOS */
 body {
     font-family: Arial,sans-serif;
     font-family: 'Montserrat', sans-serif;
     background-color:LightBlue;
+}
+
+#titulo-seletor{
+    font-weight: bold;
+    padding-top: 3%;
+}
+
+.header-seletor{
+    padding: 10% 2% 2% 8%;
 }
 
 #botao_desafio{
@@ -16,6 +34,7 @@ body {
 
 #botao_voltar{
     display: none;
+    margin-bottom: 2rem;
 }
 
 #carta{
@@ -41,6 +60,14 @@ body {
 .prenda{
     margin: 0 auto;
     padding: 5% 5%;
+}
+
+#container-navbar{
+    width: 50%;
+}
+
+.card{
+    margin: 5%;
 }
 
 /* TEXTO */
