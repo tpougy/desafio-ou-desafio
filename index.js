@@ -50,13 +50,12 @@ function definir_desafio(modo) {
   let desafio_texto = desafios[y];
   let prenda_texto = prendas[y];
 
-  if (tipos[y] == "aleatorio") {
+  if (desafio_texto.indexOf("@") != -1) {
     let z = getRandomIntInclusive(0, 6)
     desafio_texto = desafio_texto.replace("@", complemento_aleatorio.aleatorio[z].texto);
   }
 
   $("#desafio").html(desafio_texto);
-  console.log("definiu")
 
   $("#prenda").text(prenda_texto);
 
@@ -73,7 +72,6 @@ function virar() {
 
 // função que registra o clique no botao principal (proximo/anterior desafio)
 function clicou(modo) {
-  console.log("clicou")
   virar();
   setTimeout(function () {
     definir_desafio(modo, ranNums, complemento_aleatorio, x);
