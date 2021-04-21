@@ -2,18 +2,18 @@
 //use this link for development https://raw.githack.com/thomazpougy/desafio-ou-desafio/main/index.js
 
 // função que faz o shuffle de um array
-Array.prototype.shuffle = function() {
+Array.prototype.shuffle = function () {
 
-let indice = this.length;
+  let indice = this.length;
 
-while(indice) {
+  while (indice) {
 
     const indiceAleatorio = Math.floor(Math.random() * indice--);
-    [this[indice], this[indiceAleatorio]] = 
-        [this[indiceAleatorio], this[indice]];
-}
+    [this[indice], this[indiceAleatorio]] =
+      [this[indiceAleatorio], this[indice]];
+  }
 
-return this;
+  return this;
 }
 
 // função que gera um numero inteiro aleatorio inclusivo entre dois números
@@ -28,7 +28,7 @@ function gera_ranNums(desafios_recebidos) {
   let total = desafios_recebidos.length;
   let nums = []
   for (i = 0; i < total; i++) {
-      nums.push(i)
+    nums.push(i)
   }
 
   return nums.shuffle();
@@ -39,152 +39,129 @@ function gera_ranNums(desafios_recebidos) {
 
 function definir_desafio(modo) {
 
-  if(modo=="voltar"){
+  if (modo == "voltar") {
     x -= 1;
-  }else{
-  x += 1;
+  } else {
+    x += 1;
   }
 
   let y = ranNums[x];
-  
+
   let desafio_texto = desafios[y];
   let prenda_texto = prendas[y];
 
-  if(tipos[y] == "aleatorio"){
-    let z = getRandomIntInclusive(0,6)
-    desafio_texto = desafio_texto.replace("@",complemento_aleatorio.aleatorio[z].texto);
+  if (tipos[y] == "aleatorio") {
+    let z = getRandomIntInclusive(0, 6)
+    desafio_texto = desafio_texto.replace("@", complemento_aleatorio.aleatorio[z].texto);
   }
-  
+
   $("#desafio").html(desafio_texto);
   console.log("definiu")
-  
+
   $("#prenda").text(prenda_texto);
 
 }
 
 // função que vira a carta
 function virar() {
-  if($("#carta").hasClass("estado1")){
-    $("#carta").removeClass( "estado1" ).addClass( "estado0" );
-  }else{
-    $("#carta").removeClass( "estado0" ).addClass( "estado1" );
+  if ($("#carta").hasClass("estado1")) {
+    $("#carta").removeClass("estado1").addClass("estado0");
+  } else {
+    $("#carta").removeClass("estado0").addClass("estado1");
   }
 }
 
 // função que registra o clique no botao principal (proximo/anterior desafio)
-function clicou(modo){
+function clicou(modo) {
   console.log("clicou")
   virar();
-  setTimeout(function(){
-    definir_desafio(modo,ranNums,complemento_aleatorio,x);
-  },850);
-  
+  setTimeout(function () {
+    definir_desafio(modo, ranNums, complemento_aleatorio, x);
+  }, 850);
+
 }
 
 ///////////////////// Event Triggers /////////////////////////////
 
-$("#check-cafe").click(function(){if(JSON.parse($(this).val())){$(this).val("false")}else{$(this).val("true")}});
+$("#check-cafe").click(function () { if (JSON.parse($(this).val())) { $(this).val("false") } else { $(this).val("true") } });
 
-$("#check-fogo").click(function(){if(JSON.parse($(this).val())){$(this).val("false")}else{$(this).val("true")}});
+$("#check-fogo").click(function () { if (JSON.parse($(this).val())) { $(this).val("false") } else { $(this).val("true") } });
 
-$("#check-proibido").click(function(){if(JSON.parse($(this).val())){$(this).val("false")}else{$(this).val("true")}});
+$("#check-proibido").click(function () { if (JSON.parse($(this).val())) { $(this).val("false") } else { $(this).val("true") } });
 
-$("#check-ditador").click(function(){if(JSON.parse($(this).val())){$(this).val("false")}else{$(this).val("true")}});
+$("#check-ditador").click(function () { if (JSON.parse($(this).val())) { $(this).val("false") } else { $(this).val("true") } });
 
 // cartas selecionadas
-// $("#botao-jogar").click(function(){
-//   let data = [];
 
-//   if( $("#botao-jogar").text() == "Jogar!" ){
-//     $("#botao-jogar").text("Confirma?");
-//   }else{
-//     $("#seletor").css("display","none")
-//     $("#jogo").css("display","block")
+$("#botao-jogar").click(function () {
 
-//     if(JSON.parse($("#check-cafe").val())){
-//       console.log("hi")
-//       // for(i=0;i<this.cafe.length();i++){
-//       //   desafios_total.push(this.cafe[i].desafio)
-//       //   prendas_total.push(this.cafe[i].prenda)
-//       // }
-//       // console.log(desafios_total)
-//     }
-      
-//       // 
-
-//   }
-
-// });
-
-$("#botao-jogar").click(function(){
-
-  if( $("#botao-jogar").text() == "Jogar!" ){
+  if ($("#botao-jogar").text() == "Jogar!") {
     $("#botao-jogar").text("Confirma?");
-  }else{
-    $("#seletor").css("display","none")
-    $("#jogo").css("display","block")
+  } else {
+    $("#seletor").css("display", "none")
+    $("#jogo").css("display", "block")
 
-    if(JSON.parse($("#check-cafe").val())){
-      for(i=0;i<cartas_total.cafe.length;i++){
+    if (JSON.parse($("#check-cafe").val())) {
+      for (i = 0; i < cartas_total.cafe.length; i++) {
         desafios.push(cartas_total.cafe[i].desafio)
         prendas.push(cartas_total.cafe[i].prenda)
         tipos.push(cartas_total.cafe[i].tipo)
       };
     };
 
-    if(JSON.parse($("#check-fogo").val())){
-      for(i=0;i<cartas_total.fogo.length;i++){
+    if (JSON.parse($("#check-fogo").val())) {
+      for (i = 0; i < cartas_total.fogo.length; i++) {
         desafios.push(cartas_total.fogo[i].desafio)
         prendas.push(cartas_total.fogo[i].prenda)
         tipos.push(cartas_total.fogo[i].tipo)
       };
     };
 
-    if(JSON.parse($("#check-proibido").val())){
-      for(i=0;i<cartas_total.proibido.length;i++){
+    if (JSON.parse($("#check-proibido").val())) {
+      for (i = 0; i < cartas_total.proibido.length; i++) {
         desafios.push(cartas_total.proibido[i].desafio)
         prendas.push(cartas_total.proibido[i].prenda)
         tipos.push(cartas_total.proibido[i].tipo)
       };
     };
 
-    if(JSON.parse($("#check-ditador").val())){
-      for(i=0;i<cartas_total.ditador.length;i++){
+    if (JSON.parse($("#check-ditador").val())) {
+      for (i = 0; i < cartas_total.ditador.length; i++) {
         desafios.push(cartas_total.ditador[i].desafio)
         prendas.push(cartas_total.ditador[i].prenda)
         tipos.push(cartas_total.ditador[i].tipo)
       };
     };
 
-    ranNums=gera_ranNums(desafios)
+    ranNums = gera_ranNums(desafios)
 
   };
 
 });
-  
 
-$("#botao_desafio").one("click",function(){
+
+$("#botao_desafio").one("click", function () {
   $("#botao_desafio").text("Próximo Desafio");
   $("#botao_voltar").fadeIn(400);
-  setTimeout(function(){
+  setTimeout(function () {
     $("#desafio").css("font-weight", "normal")
-  },850);
-}).click(function(){
+  }, 850);
+}).click(function () {
   clicou("proximo");
 });
 
 
-$("#botao_voltar").click(function(){
+$("#botao_voltar").click(function () {
 
-  if($("#botao_voltar").text() == "Voltar um desafio"){
+  if ($("#botao_voltar").text() == "Voltar um desafio") {
     $("#botao_voltar").text("Confirma?")
-  }else{
-    if(x==0){
+  } else {
+    if (x == 0) {
       $("#botao_voltar").text("Não há mais desafios para voltar");
-      setTimeout(function(){
-        $("#botao_voltar").text("Voltar um desafio");              
+      setTimeout(function () {
+        $("#botao_voltar").text("Voltar um desafio");
       }, 3000);
-    }else{
+    } else {
       clicou("voltar");
       $("#botao_voltar").text("Voltar um desafio")
     }
@@ -198,29 +175,35 @@ $("#botao_voltar").click(function(){
 
 // requisição do dados das cartas
 $.ajax({
-    url: "https://tpougy.github.io/desafio-ou-desafio/data/cartas.json",
-    type: "get",
-    dataType: 'text',
-    success: function(response) {
-      cartas_total = JSON.parse(response); // convert to object
-    },
-    error: function(err) {
-      console.log(err);
-    }
+  url: "https://tpougy.github.io/desafio-ou-desafio/data/cartas.json",
+  type: "get",
+  dataType: 'text',
+  success: function (response) {
+    cartas_total = JSON.parse(response); // convert to object
+
+    $("#num-cartas-cafe").text((cartas_total.cafe.length - 1).toString() + " cartas");
+    $("#num-cartas-fogo").text((cartas_total.fogo.length - 1).toString() + " cartas");
+    $("#num-cartas-proibido").text((cartas_total.proibido.length - 1).toString() + " cartas");
+    $("#num-cartas-ditador").text((cartas_total.ditador.length - 1).toString() + " cartas");
+
+  },
+  error: function (err) {
+    console.log(err);
+  }
 });
 
 
 // requisição do dados dos complementos aleatórios
 $.ajax({
-    url: "https://tpougy.github.io/desafio-ou-desafio/data/aleatorio.json",
-    type: "get",
-    dataType: 'text',
-    success: function(response) {
-      complemento_aleatorio = JSON.parse(response); // convert to object;
-    },
-    error: function(err) {
-      console.log(err);
-    }
+  url: "https://tpougy.github.io/desafio-ou-desafio/data/aleatorio.json",
+  type: "get",
+  dataType: 'text',
+  success: function (response) {
+    complemento_aleatorio = JSON.parse(response); // convert to object;
+  },
+  error: function (err) {
+    console.log(err);
+  }
 });
 
 
@@ -229,20 +212,8 @@ $.ajax({
 // declaração das variáveis globais
 var x = -1;
 
-var desafios=[];
-var prendas=[];
-var tipos=[];
+var desafios = [];
+var prendas = [];
+var tipos = [];
 
 var ranNums;
-
-
-
-
-
-  
-
-
-
-  
-
-
