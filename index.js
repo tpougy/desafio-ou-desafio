@@ -72,6 +72,7 @@ function virar() {
 
 // função que registra o clique no botao principal (proximo/anterior desafio)
 function clicou(modo) {
+  console.log("clicou");
   virar();
   setTimeout(function () {
     definir_desafio(modo, ranNums, complemento_aleatorio, x);
