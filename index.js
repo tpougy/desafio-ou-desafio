@@ -72,7 +72,6 @@ function virar() {
 
 // função que registra o clique no botao principal (proximo/anterior desafio)
 function clicou(modo) {
-  console.log("clicou");
   virar();
   setTimeout(function () {
     definir_desafio(modo, ranNums, complemento_aleatorio, x);
@@ -90,6 +89,8 @@ $("#check-proibido").click(function () { if (JSON.parse($(this).val())) { $(this
 
 $("#check-ditador").click(function () { if (JSON.parse($(this).val())) { $(this).val("false") } else { $(this).val("true") } });
 
+$("#check-vive").click(function () { if (JSON.parse($(this).val())) { $(this).val("false") } else { $(this).val("true") } });
+
 // cartas selecionadas
 
 $("#botao-jogar").click(function () {
@@ -104,7 +105,6 @@ $("#botao-jogar").click(function () {
       for (i = 0; i < cartas_total.cafe.length; i++) {
         desafios.push(cartas_total.cafe[i].desafio)
         prendas.push(cartas_total.cafe[i].prenda)
-        tipos.push(cartas_total.cafe[i].tipo)
       };
     };
 
@@ -112,7 +112,6 @@ $("#botao-jogar").click(function () {
       for (i = 0; i < cartas_total.fogo.length; i++) {
         desafios.push(cartas_total.fogo[i].desafio)
         prendas.push(cartas_total.fogo[i].prenda)
-        tipos.push(cartas_total.fogo[i].tipo)
       };
     };
 
@@ -120,7 +119,6 @@ $("#botao-jogar").click(function () {
       for (i = 0; i < cartas_total.proibido.length; i++) {
         desafios.push(cartas_total.proibido[i].desafio)
         prendas.push(cartas_total.proibido[i].prenda)
-        tipos.push(cartas_total.proibido[i].tipo)
       };
     };
 
@@ -128,7 +126,13 @@ $("#botao-jogar").click(function () {
       for (i = 0; i < cartas_total.ditador.length; i++) {
         desafios.push(cartas_total.ditador[i].desafio)
         prendas.push(cartas_total.ditador[i].prenda)
-        tipos.push(cartas_total.ditador[i].tipo)
+      };
+    };
+
+    if (JSON.parse($("#check-vive").val())) {
+      for (i = 0; i < cartas_total.vive.length; i++) {
+        desafios.push(cartas_total.vive[i].desafio)
+        prendas.push(cartas_total.vive[i].prenda)
       };
     };
 
@@ -184,6 +188,7 @@ $.ajax({
     $("#num-cartas-fogo").text((cartas_total.fogo.length - 1).toString() + " cartas");
     $("#num-cartas-proibido").text((cartas_total.proibido.length - 1).toString() + " cartas");
     $("#num-cartas-ditador").text((cartas_total.ditador.length - 1).toString() + " cartas");
+    $("#num-cartas-vive").text((cartas_total.vive.length - 1).toString() + " cartas");
 
   },
   error: function (err) {
@@ -213,6 +218,5 @@ var x = -1;
 
 var desafios = [];
 var prendas = [];
-var tipos = [];
 
 var ranNums;
