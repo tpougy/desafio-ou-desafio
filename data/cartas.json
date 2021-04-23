@@ -89,10 +89,6 @@
       "prenda": "Arregou? Tome 2 shots!"
     },
     {
-      "desafio": "Diga a todos sua senha do Facebook!",
-      "prenda": "Tome 4 shots!"
-    },
-    {
       "desafio": "Uive para a lua 3 vezes!",
       "prenda": "Tome 3 shots!"
     },
@@ -169,10 +165,6 @@
       "prenda": "Parou antes do tempo? Tome 3 shots"
     },
     {
-      "desafio": "Pelos velhos tempos! Receba um Antônio Nunes da @",
-      "prenda": "Tome 4 shots!"
-    },
-    {
       "desafio": "De um beijo na testa ao estilo “tiazona” em todos da roda!",
       "prenda": "Tome 2 shots!"
     },
@@ -197,10 +189,6 @@
       "prenda": "Tome 2 shots!"
     },
     {
-      "desafio": "De uma lambida em um sabonete. Seu boca suja!",
-      "prenda": "Tome 3 shots!"
-    },
-    {
       "desafio": "Deixe o jogador mais velho completar sua monocelha com batom!",
       "prenda": "Tome 3 shots!"
     },
@@ -221,10 +209,6 @@
       "prenda": "Tome 2 shots!"
     },
     {
-      "desafio": "Escove os dentes com o dedo de outro jogador!",
-      "prenda": "Tome 1 shots!"
-    },
-    {
       "desafio": "Deixe seu melhor amigo jogar um copo de àgua na sua cara! Dica: grave em slo-mo.",
       "prenda": "Tome 2 shots!"
     },
@@ -243,10 +227,6 @@
     {
       "desafio": "Escolha alguém para ser o seu ESPELHO, sempre que você beber ela bebe também!",
       "prenda": "Nao da para arregar..."
-    },
-    {
-      "desafio": "Coloque um pouco da bebida de todo mundo no seu copo e tome um GOLÃO!",
-      "prenda": "Arregou? Ta com nojinho? Tome 3 shots!"
     },
     {
       "desafio": "AGORA É SUA VEZ!<br>Escolha um desafio para qualquer pessoa da roda!",
@@ -299,10 +279,6 @@
       "prenda": "Tome 2 shots!"
     },
     {
-      "desafio": "Tire sua camisa e dançe dança do ventre por 21 segundos.",
-      "prenda": "Tome 5 shots!"
-    },
-    {
       "desafio": "DESAFIO DUPLO!<br>Encene uma cena de sexo de um filme debaixo de um edredom com outras duas pessoas.",
       "prenda": "Tome 3 shots!"
     },
@@ -323,10 +299,6 @@
       "prenda": "O ganhador arregou? Que tome 3 shots!"
     },
     {
-      "desafio": "Receba um cuecão/calcinhão da ",
-      "prenda": "Tome 4 shots!"
-    },
-    {
       "desafio": "De um tapao na bunda da @",
       "prenda": "Tome 3 shots!"
     },
@@ -345,10 +317,6 @@
     {
       "desafio": "Demonstre sua posição sexual preferida",
       "prenda": "Tome 4 shots!"
-    },
-    {
-      "desafio": "Imite uma vaca, deixe alguém te ordenhar",
-      "prenda": "Tome 3 shots!"
     },
     {
       "desafio": "Desenhe um 8 na parede com sua bunda!",
@@ -401,10 +369,6 @@
     {
       "desafio": "Faça um Lap Dance na @",
       "prenda": "Tome 4 shots"
-    },
-    {
-      "desafio": "Arrasto! Diga a todos um segredo de alguém da roda sem contar quem é. Se a pessoa assumir o B.O. você bebe 3 doses!",
-      "prenda": "Arregou? Tome 4 doses"
     },
     {
       "desafio": "Faça o quadradinho. Se seus amigos não gostarem tome um shot!",
@@ -511,6 +475,18 @@
     {
       "desafio": "Pelas próxima rodada para cada copo que a @ terminar de beber você deve tirar uma peça de roupa!",
       "prenda": "Tome 2 shots para cada peça de roupa que nao tirar!"
+    },
+    {
+      "desafio": "Tire uma peça de roupa pelo resto do jogo!",
+      "prenda": "Tome 4 shots!"
+    },
+    {
+      "desafio": "Tire uma peça de roupa pelo resto do jogo!",
+      "prenda": "Tome 4 shots!"
+    },
+    {
+      "desafio": "Tire uma peça de roupa pelo resto do jogo!",
+      "prenda": "Tome 4 shots!"
     }
   ],
   "ditador": [
@@ -609,6 +585,44 @@
     {
       "desafio": "DESAFIO GERAL!<br>Joguem todos o JOGO DA CARTA! Quem deixar a carta cair toma um shot!",
       "prenda": "Tome um shot!"
+    }
+  ],
+  "vive": [
+    {
+      "desafio": "Escove os dentes com o dedo de outro jogador!",
+      "prenda": "Tome 1 shots!"
+    },
+    {
+      "desafio": "Arrasto! Diga a todos um segredo de alguém da roda sem contar quem é. Se a pessoa assumir o B.O. você bebe 3 doses!",
+      "prenda": "Arregou? Tome 4 doses"
+    },
+    {
+      "desafio": "Imite uma vaca, deixe alguém te ordenhar",
+      "prenda": "Tome 3 shots!"
+    },
+    {
+      "desafio": "Diga a todos sua senha do Facebook!",
+      "prenda": "Tome 4 shots!"
+    },
+    {
+      "desafio": "Pelos velhos tempos! Receba um Antônio Nunes da @",
+      "prenda": "Tome 4 shots!"
+    },
+    {
+      "desafio": "De uma lambida em um sabonete. Seu boca suja!",
+      "prenda": "Tome 3 shots!"
+    },
+    {
+      "desafio": "Coloque um pouco da bebida de todo mundo no seu copo e tome um GOLÃO!",
+      "prenda": "Arregou? Ta com nojinho? Tome 3 shots!"
+    },
+    {
+      "desafio": "Tire sua camisa e dançe dança do ventre por 21 segundos.",
+      "prenda": "Tome 5 shots!"
+    },
+    {
+      "desafio": "Receba um cuecão/calcinhão da ",
+      "prenda": "Tome 4 shots!"
     }
   ]
 }
