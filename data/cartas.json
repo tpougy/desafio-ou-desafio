@@ -1,6 +1,26 @@
 {
   "cafe": [
     {
+      "desafio": "Encha um copo de breja em cada mão, não solte eles até acabar a bebida em ambos!",
+      "prenda": "Tome 2 shots!"
+    },
+    {
+      "desafio": "Troque de lugar com um jogador à sua escolha.",
+      "prenda": "Tome 2 shots!"
+    },
+    {
+      "desafio": "Que está ao seu lado toma um shot!",
+      "prenda": "Se eles amarelarem, que você tome os dois!"
+    },
+    {
+      "desafio": "Beba em shots o mesmo número de pessoas da roda que você já beijou.",
+      "prenda": "Tome 3 shots!"
+    },
+    {
+      "desafio": "Mostre sua conta bancária.",
+      "prenda": "Tome 2 shots!"
+    },
+    {
       "desafio": "Aja como um cachorro e busque um objeto para a pessoa mais alta da roda.",
       "prenda": "Tome 2 shots!"
     },
@@ -247,6 +267,34 @@
     {
       "desafio": "Faça o desafio da próxima pessoa com suas mãos no bolso dela!",
       "prenda": "Tome 3 shots!"
+    },
+    {
+      "desafio": "Desafio Geral!<br>Joguem 1 rodada de - Eu Nunca -, você começa!",
+      "prenda": "Não da para arregar!"
+    },
+    {
+      "desafio": "Desafio Geral!<br>Cante uma música sertaneja, quem não souber cantar junto tome 2 shots!",
+      "prenda": "Não dá pra amarelar!"
+    },
+    {
+      "desafio": "Desafio Geral! Cantem “Parabéns” para a pessoa mais nova da mesa, detalhe: batam palmas com os pés!",
+      "prenda": "Não dá pra amarelar!"
+    },
+    {
+      "desafio": "Desafio Geral!<br>Geral bebe tudo do que estiver segurando!",
+      "prenda": "Não dá pra amarelar!"
+    },
+    {
+      "desafio": "Desafio Geral!<br>Joguem todos o JOGO DA CARTA! Quem deixar a carta cair toma um shot!",
+      "prenda": "Tome um shot!"
+    },
+    {
+      "desafio": "Desafio Geral!<br>Cantem o hino das WINX! Quem não souber cantar toma um shot!",
+      "prenda": "Tome um shot!"
+    },
+    {
+      "desafio": "Desafio em dupla!<br>A @ deverá beber com você. Sempre que um beber o outro tem que beber um a mais. Quem desistir primeiro leva um Antônio Nunes do outro!",
+      "prenda": "Tome um shot!"
     }
   ],
   "fogo": [
@@ -487,31 +535,31 @@
     {
       "desafio": "Tire uma peça de roupa pelo resto do jogo!",
       "prenda": "Tome 4 shots!"
+    },
+    {
+      "desafio": "Descreva seu sexo perfeito...em detalhes",
+      "prenda": "Tome 2 shots!"
     }
   ],
   "ditador": [
     {
-      "desafio": "Desafio Geral!<br>Joguem 1 rodada de - Eu Nunca -, você começa!",
-      "prenda": "Não da para arregar!"
+      "desafio": "Ditador!<br>Tome um shot para cada piercing e tatoo que tiver.",
+      "prenda": "Se o ditador falou não dá pra amarelar..."
     },
     {
-      "desafio": "Desafio Geral!<br>Cante uma música sertaneja, quem não souber cantar junto tome 2 shots!",
-      "prenda": "Não dá pra amarelar!"
+      "desafio": "Ditador!<br>Carrossel!Todos passam o copo para a esquerda",
+      "prenda": "Se o ditador falou não dá pra amarelar..."
     },
     {
       "desafio": "Nova Regra<br>É proibido falar NÃO pelo resto do jogo!",
       "prenda": "Quem falar toma 1 shot!"
     },
     {
-      "desafio": "Desafio Geral! Cantem “Parabéns” para a pessoa mais nova da mesa, detalhe: batam palmas com os pés!",
-      "prenda": "Não dá pra amarelar!"
-    },
-    {
       "desafio": "Ditador!<br>Molotov humano... Quem fuma bebe!",
       "prenda": "Se o ditador falou não dá pra amarelar..."
     },
     {
-      "desafio": "Ditador!<br>Quem não tiver ficha na polícia toma 1 shot!",
+      "desafio": "Ditador!<br>Quem já foi enquadrado pela polícia toma um shot!",
       "prenda": "Se o ditador falou não dá pra amarelar..."
     },
     {
@@ -535,7 +583,7 @@
       "prenda": "Se o ditador falou não dá pra amarelar..."
     },
     {
-      "desafio": "O Mestre mandou<br>O jogador mais magro toma 1 shot!",
+      "desafio": "Ditador!<br>O jogador mais magro toma 1 shot!",
       "prenda": "Se o ditador falou não dá pra amarelar..."
     },
     {
@@ -544,14 +592,6 @@
     },
     {
       "desafio": "Ditador!<br>O jogador mais bonito toma 2 shots. Vai ser bonito assim na PQP!",
-      "prenda": "Se o ditador falou não dá pra amarelar..."
-    },
-    {
-      "desafio": "Desafio Geral!<br>Geral bebe tudo do que estiver segurando!",
-      "prenda": "Não dá pra amarelar!"
-    },
-    {
-      "desafio": "Ditador!<br>Quem estiver de verde toma 1 shot. Foda-se o meio ambiente!",
       "prenda": "Se o ditador falou não dá pra amarelar..."
     },
     {
@@ -579,12 +619,32 @@
       "prenda": "Tome 1 shot sempre que não se jogar!"
     },
     {
-      "desafio": "Ditador!<br>Quem transou essa semana bebe 1 shot!",
+      "desafio": "Ditador!<br>Ditador!<br>Quem transou essa semana bebe 1 shot!",
       "prenda": "Se o ditador falou não dá pra amarelar..."
     },
     {
-      "desafio": "DESAFIO GERAL!<br>Joguem todos o JOGO DA CARTA! Quem deixar a carta cair toma um shot!",
-      "prenda": "Tome um shot!"
+      "desafio": "Ditador!<br>Quem postou stories nas ultimas 24h, toma um shot!",
+      "prenda": "Se o ditador falou não dá pra amarelar..."
+    },
+    {
+      "desafio": "Ditador!<br>Votem quem é o mais safado. Que ele beba 2 shots pela safadeza!",
+      "prenda": "Se o ditador falou não dá pra amarelar..."
+    },
+    {
+      "desafio": "Nova Regra!<br>Para cada palavrão que você falar, tome um shot!",
+      "prenda": "Se o ditador falou não dá pra amarelar..."
+    },
+    {
+      "desafio": "Nova Regra!<br>Por 3 rodadas, se locomova como se estivesse no espaço!",
+      "prenda": "Tome 1 shot sempre que não o fizer!"
+    },
+    {
+      "desafio": "Ditador!<br>Quem estiver com o copo mais cheio escolhe alguém para virar ele",
+      "prenda": "Tome 3 shots!"
+    },
+    {
+      "desafio": "Ditador!<br>Quem furou mais a quarentena toma 2 shots pra esterilizar o corona!",
+      "prenda": "Se o ditador falou não dá pra amarelar..."
     }
   ],
   "vive": [
