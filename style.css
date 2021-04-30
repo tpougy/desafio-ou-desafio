@@ -1,6 +1,36 @@
 /* use this for production https://rawcdn.githack.com/thomazpougy/desafio-ou-desafio/94379cc6486f9c8a322fc5cffd11fa3caef5714e/style.css */
 /* use this for development https://raw.githack.com/thomazpougy/desafio-ou-desafio/main/style.css */
 
+
+/* AQUECIMENTO */
+.container-aquecimento{
+    background-color: LightGoldenRodYellow;
+    width: 95vw;
+    height: 95vw;
+    transform: rotate(90deg);
+    margin-top: 30vw;
+    margin-left: 2.5vw;
+    justify-content: center;
+}
+
+.titulo-aquecimento{
+    text-align: center;
+    font-weight: bold;
+}
+
+#texto-aquecimento{
+    height: 80vw;
+}
+
+#riscado{
+    text-decoration: line-through;
+}
+
+#proxima-batata{
+
+
+}
+
 /* SECTIONS */
 #jogo{
     display: none;
@@ -17,6 +47,19 @@ body {
     background-color:LightBlue;
 }
 
+#titulo-menu{
+    margin: 5rem auto 1rem;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+}
+
+#btn-menu{
+    margin: 1rem auto;
+    display: block;
+}
+
+
 #titulo-seletor{
     font-weight: bold;
     padding-top: 3%;
@@ -27,7 +70,7 @@ body {
 }
 
 #botao_desafio{
-    margin-top: 5rem;
+    margin-top: 2rem;
     display: block;
     font-weight: bold;
 }
@@ -88,4 +131,10 @@ position: absolut;
 transform: perspective(500px) rotatey(360deg);
 transition: 2s ease;
 backface-visibility: hidden;
+}
+
+/* NAVBAR */
+#nav_menu_principal{
+    margin-bottom: 1rem;
+    display: block;
 }

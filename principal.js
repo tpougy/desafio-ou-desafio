@@ -81,6 +81,11 @@ function clicou(modo) {
 
 ///////////////////// Event Triggers /////////////////////////////
 
+$('#nav_selecionar_cartas').click(function () {
+  location.reload();
+});
+
+
 $("#check-cafe").click(function () { if (JSON.parse($(this).val())) { $(this).val("false") } else { $(this).val("true") } });
 
 $("#check-fogo").click(function () { if (JSON.parse($(this).val())) { $(this).val("false") } else { $(this).val("true") } });
