@@ -19,13 +19,44 @@
 
     <title>Desafio ou Desafio</title>
 
+    <style type="text/css">
+        #warning-message {
+            display: none;
+            font-weight: bold;
+            font-size: xx-large;
+            color: crimson;
+            text-align: center;
+            padding: 5rem 1rem;
+        }
+
+        @media only screen and (orientation:portrait) {
+            #wrapper {
+                display: none;
+            }
+
+            #warning-message {
+                display: block;
+            }
+        }
+
+        @media only screen and (orientation:landscape) {
+            #warning-message {
+                display: none;
+            }
+        }
+    </style>
+
 </head>
 
 <body>
+    <audio id="beep" src="aud/beep.mp3" type="audio/mpeg" preload="auto"></audio>
+    <audio id="music" src="aud/music.mp3" type="audio/mpeg" preload="auto"></audio>
+    <audio id="timesup" src="aud/timesup.mp3" type="audio/mpeg" preload="auto"></audio>
+
 
     <div class="collapse" id="navbarToggleExternalContent">
         <div class="bg-dark p-4">
-            <button id="nav_menu_principal" class="btn btn-sm btn-outline-light">Menu Principal</button>
+            <a id="nav_menu_principal" class="btn btn-sm btn-outline-light" href="index.html">MenuPrincipal</a>
         </div>
     </div>
     <nav class="navbar navbar-dark bg-dark">
@@ -37,21 +68,36 @@
             </button>
         </div>
     </nav>
+    <img id="countdown-img1" class="img-count" src="img/3.png" alt="countdown" style="display: none;">
+    <img id="countdown-img2" class="img-count" src="img/2.png" alt="countdown" style="display: none;">
+    <img id="countdown-img3" class="img-count" src="img/1.png" alt="countdown" style="display: none;">
+    <div id="countdown">
 
-    <div class="container-aquecimento">
-        <div id="texto-aquecimento">
-            <h1 class="titulo-aquecimento">Batata</h1>
-            <h1 id="riscado" class="titulo-aquecimento">Quente</h1>
-            <h1 class="titulo-aquecimento">Bêbada</h1>
+    </div>
+    <div id="wrapper">
+        <!-- your html for your website -->
+        <div class="container-aquecimento">
+            <div class="card-recomecar">
+                <h2 class="titulo-recomecar">Quem está segurando toma 1 shot!</h2>
+                <button id="btn-recomecar" class="btn btn-lg btn-primary">Recomeçar</button>
+            </div>
+            <div id="container-texto-aquecimento">
+                <h1 class="titulo-aquecimento">Batata</h1>
+                <h1 class="titulo-aquecimento" style="text-decoration: line-through;">Quente</h1>
+                <h1 class="titulo-aquecimento">Bêbada</h1>
+                <h3 id="texto-aquecimento"></h3>
+            </div>
+            <a id="proxima-batata" class="btn btn-lg btn-danger">Iniciar</a>
         </div>
-        <center><button id="proxima-batata" class="btn btn-lg btn-danger">Iniciar</button></center>
+        <div id="red-background"></div>
+    </div>
+    <div id="warning-message">
+        Trave o celular no modo deitado para jogar!
+
     </div>
 
-    <!-- <div class="row justify-content-center">
-        <div class="col-9">
 
-        </div>
-    </div> -->
+    </div>
 
     <!-- JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -61,7 +107,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <!-- <script src="index.js"></script> -->
+    <script src="scripts/aquecimento.js"></script>
 
 </body>
 

@@ -11,7 +11,7 @@
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 
-  <!-- Fonts -->
+  <!-- Fonts href="./aquecimento.html"-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
@@ -24,8 +24,20 @@
   <div class="row justify-content-center">
     <div class="col-9">
       <h1 id="titulo-menu">Menu</h1>
-      <a id="btn-menu" class="btn btn-dark" href="./principal.html">Jogar!</a>
-      <a id="btn-menu" class="btn btn-outline-dark" href="./aquecimento.html">Aquecimento...</a>
+      <a id="btn-menu-princ" class="btn btn-dark btn-menu" href="principal.html">Jogar!</a>
+      <a id="btn-menu-aquec" class="btn btn-outline-dark btn-menu" data-toggle="collapse"
+        data-target="descr-aquec">Aquecimento...</a>
+      <div id="descr-aquec">
+        <div class="card card-body">
+          <h4>Batata Bêbada</h4>
+          <p>Trave o celular na horizontal</p>
+          <p>Cumpra os comandos o mais rápido possível!</p>
+          <p>Passe o celular para o próximo jogar depois que terminar</p>
+          <p>Quem segurar a batata quando explodir toma um shot!</p>
+          <p>Cada rodada dura até 1 minuto</p>
+          <a id="btn-menu-aquec" class="btn btn-danger btn-menu" href="aquecimento.html">Jogar!</a>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -37,7 +49,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-  <!-- <script src="index.js"></script> -->
+  <script src="scripts/index.js"></script>
 
 </body>
 

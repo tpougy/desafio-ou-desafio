@@ -35,8 +35,6 @@ function gera_ranNums(desafios_recebidos) {
 }
 
 // função que implementa o texto do desafio no html
-
-
 function definir_desafio(modo) {
 
   if (modo == "voltar") {
