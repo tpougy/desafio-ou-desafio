@@ -1,0 +1,310 @@
+{
+    "comandos": [
+        {
+            "texto": "Diga um Adam famoso"
+        },
+        {
+            "texto": "Diga um ator ou atriz que atuou em Avenida Brasil"
+        },
+        {
+            "texto": "Diga o nome de um monarca famoso"
+        },
+        {
+            "texto": "Diga o nome de um velhinho famoso"
+        },
+        {
+            "texto": "Diga o nome de uma velhinha famosa"
+        },
+        {
+            "texto": "Diga uma atriz que atuou em O Diabo Veste Prada"
+        },
+        {
+            "texto": "Diga o nome do ator que interpreta o homem de ferro (marvel)"
+        },
+        {
+            "texto": "Diga o nome do ator que interpreta o homem aranha (marvel)"
+        },
+        {
+            "texto": "Diga o nome de um ator que atuou em Star Wars"
+        },
+        {
+            "texto": "Diga seus top 3 filmes favoritos"
+        },
+        {
+            "texto": "Diga 3 filmes do Jim Carrey"
+        },
+        {
+            "texto": "Diga 3 desenhos que passavam na Nickelodeon"
+        },
+        {
+            "texto": "Diga 3 desenhos que passavam no Cartoon Network"
+        },
+        {
+            "texto": "Diga 3 filmes de natal"
+        },
+        {
+            "texto": "Diga o nome de 2 filmes sobre música"
+        },
+        {
+            "texto": "Diga o nome de 2 filmes sobre extraterrestres"
+        },
+        {
+            "texto": "Qual filme é melhor Gente Grande ou As branquelas?"
+        },
+        {
+            "texto": "Qual filme é melhor Velozes e Furiosos: Rio de Janeiro ou Tropa de Elite?"
+        },
+        {
+            "texto": "Qual série de filmes é melhor Harry Potter ou Percy Jackson?"
+        },
+        {
+            "texto": "Qual série de filmes é melhor O Senhor dos Aneis ou As Crônicas de Nárnia?"
+        },
+        {
+            "texto": "Qual filme é melhor Matrix ou Bladerunner?"
+        },
+        {
+            "texto": "Diga o nome de 5 personagens de Harry Potter"
+        },
+        {
+            "texto": "Imite o Faustão"
+        },
+        {
+            "texto": "Imite o Galvão Bueno"
+        },
+        {
+            "texto": "Imite o Michael Jackon"
+        },
+        {
+            "texto": "Imite o Mickey"
+        },
+        {
+            "texto": "Imite o Silvio Santos"
+        },
+        {
+            "texto": "Imite o William Bonner"
+        },
+        {
+            "texto": "Imite o Jô Soares"
+        },
+        {
+            "texto": "Imite o Raul Gil"
+        },
+        {
+            "texto": "Imite o Gil do Vigor do BBB21"
+        },
+        {
+            "texto": "Imite a Juliette do BBB21"
+        },
+        {
+            "texto": "Você prefere ter o poder de se teletransportar ou ler mentes?"
+        },
+        {
+            "texto": "Você prefere ser temido ou se amado?"
+        },
+        {
+            "texto": "Você prefere viver sem internet ou sem ar condicionado?"
+        },
+        {
+            "texto": "Você prefere ser ruim no sexo ou beijando?"
+        },
+        {
+            "texto": "Você prefere inteligência ou beleza?"
+        },
+        {
+            "texto": "Você prefere estar sempre 10 minutos atrasado para tudo ou chegar sempre 20 minutos antes de todos?"
+        },
+        {
+            "texto": "Você prefere que ninguém apareça no seu velório ou no seu casamento?"
+        },
+        {
+            "texto": "Você prefere ficar sozinho para o resto da vida ou estar sempre rodeado de gente insuportável?"
+        },
+        {
+            "texto": "Você prefere estar com a roupa sempre dois tamanhos maiores ou um tamanho menor?"
+        },
+        {
+            "texto": "Você prefere não poder se depilar nunca ou que nenhum desodorante funcione para você?"
+        },
+        {
+            "texto": "Você prefere nunca mais poder tomar refrigerante ou só poder tomar refrigerante para o resto da vida?"
+        },
+        {
+            "texto": "Você prefere ter um tapete voador ou poder dirigir embaixo d'água?"
+        },
+        {
+            "texto": "Você prefere viver um dia normal da sua rotina pelado ou dormir por 1 ano inteiro?"
+        },
+        {
+            "texto": "Você prefere ser a pessoa que recebe maus conselhos ou a pessoa que dá má conselhos?"
+        },
+        {
+            "texto": "Você prefere casar com uma pessoa rica e fedida, ou com uma pessoa pobre e cheiroso?"
+        },
+        {
+            "texto": "Você prefere ler mentes ou ver o futuro?"
+        },
+        {
+            "texto": "Você prefere uma viagem para apenas um país da europa ou um mochilão na América do Sul?"
+        },
+        {
+            "texto": "Você prefere Whisky com água de côco ou Whisky com Coca-Cola?"
+        },
+        {
+            "texto": "Você prefere estar sempre fedendo mas nunca sentir o cheiro ou sempre sentir um cheiro ruim que ninguém mais percebe?"
+        },
+        {
+            "texto": "Você prefere lamber o suvaco de um conhecido ou deixar um desconhecido lamber seu suvaco?"
+        },
+        {
+            "texto": "Você prefere ter paladar no bumbum ou fazer cocô pela boca?"
+        },
+        {
+            "texto": "Diga 3 vezes sem errar: Casa suja, chão sujo"
+        },
+        {
+            "texto": "Diga 3 vezes sem errar: Caixa de graxa grossa de graça"
+        },
+        {
+            "texto": "Diga 3 vezes sem errar: Tacho sujo, chuchu chocho"
+        },
+        {
+            "texto": "Diga 1 vez sem errar: A Iara agarra e amarra a rara arara de Araraquara"
+        },
+        {
+            "texto": "Diga 1 vez sem errar: Abadalado, Ababadado, Ababelado, Abobadado"
+        },
+        {
+            "texto": "Diga com ênfase: MAMACO, GOLIRA, RIÇONERONTE, LARTAGUIXA, HIPOTOTOMO"
+        },
+        {
+            "texto": "Diga 3 cidades que você gostaria de conhecer, mas não moraria nelas"
+        },
+        {
+            "texto": "Diga 2 coisas que vem em mente quando você pensa na França"
+        },
+        {
+            "texto": "Diga 3 razões pelas quais você não gostaria de ser um cachorro"
+        },
+        {
+            "texto": "Diga 3 coisas que você sente falta do ensino médio"
+        },
+        {
+            "texto": "Diga 3 partes do corpo que ficam queimadas com o sol"
+        },
+        {
+            "texto": "Isso ou aquilo: Pizza ou Hamburguer?"
+        },
+        {
+            "texto": "Isso ou aquilo: Panquecas ou Misto?"
+        },
+        {
+            "texto": "Isso ou aquilo: Churrasco ou Sushi?"
+        },
+        {
+            "texto": "Isso ou aquilo: Verão ou inverno?"
+        },
+        {
+            "texto": "Isso ou aquilo: Praia ou cachoeira?"
+        },
+        {
+            "texto": "Isso ou aquilo: Filme romântico ou filme de terror?"
+        },
+        {
+            "texto": "Isso ou aquilo: Cachorro ou gato?"
+        },
+        {
+            "texto": "Isso ou aquilo: Café ou chá?"
+        },
+        {
+            "texto": "Isso ou aquilo: Fazer xixi quando está muito apertado ou beber água quando está com muita sede?"
+        },
+        {
+            "texto": "Isso ou aquilo: Comer só fruta por uma semana ou nunca mais comer fruta?"
+        },
+        {
+            "texto": "Isso ou aquilo: Netflix ou YouTube?"
+        },
+        {
+            "texto": "Isso ou aquilo: Filme em casa ou filme no cinema?"
+        },
+        {
+            "texto": "Isso ou aquilo: Chocolate quente ou café com leite?"
+        },
+        {
+            "texto": "Isso ou aquilo: Doce ou salgado?"
+        },
+        {
+            "texto": "Isso ou aquilo: Comer com colher de chá para o resto da vida ou com as mãos?"
+        },
+        {
+            "texto": "Isso ou aquilo: Toddy ou Nescau?"
+        },
+        {
+            "texto": "Isso ou aquilo: Maionese ou Ketchup?"
+        },
+        {
+            "texto": "Isso ou aquilo: Story ou feed do Instagram?"
+        },
+        {
+            "texto": "Isso ou aquilo: Chão gelado no inverno ou chão quente no verão?"
+        },
+        {
+            "texto": "Isso ou aquilo: Um ano sem WhatsApp ou um ano sem Instagram?"
+        },
+        {
+            "texto": "Isso ou aquilo: Bolo de padaria ou bolo caseiro?"
+        },
+        {
+            "texto": "Isso ou aquilo: Café gelado ou café muito quente?"
+        },
+        {
+            "texto": "Isso ou aquilo: Carnaval de muita festa ou Carnaval tranquilo?"
+        },
+        {
+            "texto": "Isso ou aquilo: Natal ou Ano Novo?"
+        },
+        {
+            "texto": "Isso ou aquilo: Praia ou cachoeira?"
+        },
+        {
+            "texto": "Quanto é 54+47?"
+        },
+        {
+            "texto": "Quanto é 7x8?"
+        },
+        {
+            "texto": "Diga o nome de um atleta alto"
+        },
+        {
+            "texto": "Diga o nome de um atleta gordo"
+        },
+        {
+            "texto": "Diga o nome de um atleta baixo"
+        },
+        {
+            "texto": "Diga o nome dos 4 naipes do baralho"
+        },
+        {
+            "texto": "Diga 3 mãos de poker"
+        },
+        {
+            "texto": "Quanto tempo dura uma partida de futebol?"
+        },
+        {
+            "texto": "Diga o nome de um jogador do Barcelona!"
+        },
+        {
+            "texto": "Diga o nome de um jogador de futebol famoso"
+        },
+        {
+            "texto": "Diga o nome de um jogador de basquete famoso"
+        },
+        {
+            "texto": "Diga o nome de um nadador famoso"
+        },
+        {
+            "texto": "Diga o nome de um jogador de tenis famoso"
+        }
+    ]
+}
