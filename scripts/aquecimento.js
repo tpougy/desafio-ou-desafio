@@ -30,10 +30,18 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
 }
 
+// função que gera um numero inteiro aleatorio inclusivo entre dois números
+function getRandomIntInclusive(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 
 var i = 0;
 var fim = false;
 var n = 0;
+var j = 0
 var ranNums
 
 $("#proxima-batata").click(() => {
@@ -59,6 +67,7 @@ $("#btn-recomecar").click(() => {
 
     ranNums = gera_ranNums(data.comandos);
     i = 0;
+    j = 0
     n = 0;
     fim = false;
     $("#texto-aquecimento").text(" ");
@@ -96,51 +105,38 @@ function countdown() {
 };
 
 
-// function countdown() {
-
-//     $("#countdown").fadeIn("fast")
-//     $("#countdown-img1").fadeIn("fast");
-//     document.getElementById('beep').play();
-
-//     $("#countdown-img1").delay(800).queue(function () {
-
-//         $("#countdown-img2").fadeIn("fast");
-//         document.getElementById('beep').play();
-//         $("#countdown-img2").delay(800).queue(function () {
-
-//             $("#countdown-img3").fadeIn("fast");
-//             document.getElementById('beep').play();
-//             $("#countdown-img3").delay(800).queue(function () {
-
-//                 $("#countdown").css("display", "none");
-//                 $(".img-count").css("display", "none");
-//                 // document.getElementById('music').play();
-//                 // $("#music").setPlaybackRate(3);
-//             });
-//         });
-//     });
-// };
 
 function esquentando_pt1() {
     let interval = getRandomInt(7, 25);
     setTimeout(() => {
         $("#red-background").fadeIn(10000)
-        esquentando_pt2();
+        if (j == 0) {
+            esquentando_pt2();
+            j++;
+        }
     }, (interval - 10) * 1000);
 };
 
-var j = 0
+
 function esquentando_pt2() {
+    console.log("passou " + j.toString())
     setTimeout(() => {
 
         // correção pq estava bugado tocando o som mais de uma vez
-        j++
-        if (j == 1) {
-            $(".card-recomecar").fadeIn(150)
-            fim = true;
 
-            document.getElementById('timesup').play();
+        numShots = getRandomIntInclusive(1, 3)
+        if (numShots == 1) {
+            $(".titulo-recomecar").text("Quem está segurando toma " + numShots + " shot!")
+        } else {
+            $(".titulo-recomecar").text("Quem está segurando toma " + numShots + " shots!")
         }
+        console.log("entrou " + j.toString())
+        $(".card-recomecar").fadeIn(150)
+        fim = true;
+
+
+        document.getElementById('timesup').play();
+
     }, 12 * 1000);
 }
 
