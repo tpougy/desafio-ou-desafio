@@ -4,7 +4,7 @@
             "texto": "Diga um Adam famoso"
         },
         {
-            "texto": "Diga um ator ou atriz que atuou em Avenida Brasil"
+            "texto": "Diga um personagem de Avenida Brasil"
         },
         {
             "texto": "Diga o nome de um monarca famoso"
@@ -65,6 +65,21 @@
         },
         {
             "texto": "Diga o nome de 5 personagens de Harry Potter"
+        },
+        {
+            "texto": "Diga o nome de 3 personagens de Senhor dos Aneis"
+        },
+        {
+            "texto": "Qual filme de terror você acha mais assustador?"
+        },
+        {
+            "texto": "Qual seu filme favorito de aventura?"
+        },
+        {
+            "texto": "Qual série de filmes é melhor: 007 ou Missão Impossível"
+        },
+        {
+            "texto": "Qual seu filme favorito de comédia?"
         },
         {
             "texto": "Imite o Faustão"
@@ -305,6 +320,15 @@
         },
         {
             "texto": "Diga o nome de um jogador de tenis famoso"
+        },
+        {
+            "texto": "Complete a frase: Não basta ser ______ tem q ser mackenzista!"
+        },
+        {
+            "texto": "Diga o nome de 1 aluno da PUC que não fuma maconha"
+        },
+        {
+            "texto": "Diga o nome de 1 aluno da USP que não é comunista"
         }
     ]
 }
