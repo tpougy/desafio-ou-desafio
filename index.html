@@ -21,25 +21,59 @@
 </head>
 
 <body>
+  <img id="logo-img" src="img/logo.png" alt="logo">
+  <img id="aviso-img" src="img/aviso.png" alt="aviso">
   <div class="row justify-content-center">
     <div class="col-9">
+
       <h1 id="titulo-menu">Menu</h1>
-      <a id="btn-menu-princ" class="btn btn-dark btn-menu" href="principal.html">Jogar!</a>
+      <!-- <a id="btn-menu-princ" class="btn btn-dark btn-menu" href="principal.html">Jogar!</a> -->
+
+      <a id="btn-menu-princ" class="btn btn-dark btn-menu" data-toggle="collapse" data-target="#descr-princ">O Jogo</a>
+      <div id="descr-princ" class="collapse">
+        <div class="card card-body">
+          <h4>Desafio ou Desafio</h4>
+          <p>Use o celular na vertical</p>
+          <p>Selecione as cartas de desafios que quer jogar</p>
+          <p>Cumpra os desafios ou beba!</p>
+          <p>Passe o celular para o próximo jogador depois que terminar</p>
+          <p>O jogo acaba quando a galera cansar (kkk)</p>
+          <p>Joguem na zoeira mas sem passar dos limites. #NaoÉNao</p>
+          <a class="btn btn-danger btn-menu" href="principal.html">Jogar!</a>
+        </div>
+      </div>
+
+
       <a id="btn-menu-aquec" class="btn btn-outline-dark btn-menu" data-toggle="collapse"
         data-target="descr-aquec">Aquecimento...</a>
-      <div id="descr-aquec">
+      <div id="descr-aquec" class="collapse">
         <div class="card card-body">
           <h4>Batata Bêbada</h4>
           <p>Trave o celular na horizontal</p>
           <p>Cumpra os comandos o mais rápido possível!</p>
-          <p>Passe o celular para o próximo jogar depois que terminar</p>
+          <p>Passe o celular para o próximo jogador depois que terminar</p>
           <p>Quem segurar a batata quando explodir toma um shot!</p>
           <p>Cada rodada dura até 1 minuto</p>
-          <a id="btn-menu-aquec" class="btn btn-danger btn-menu" href="aquecimento.html">Jogar!</a>
+          <a class="btn btn-danger btn-menu" href="aquecimento.html">Jogar!</a>
         </div>
       </div>
+
+
     </div>
+
+
   </div>
+  <div id="footer-space">
+
+  </div>
+  <footer>
+    <div class="row justify-content-center">
+      <p class="footer-txt">Criado por @thomaz.pougy</p>
+      <p class="footer-txt"> Mantido até hoje | 2021</p>
+    </div>
+
+
+  </footer>
 
   <!-- JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

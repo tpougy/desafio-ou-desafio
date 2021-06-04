@@ -99,47 +99,55 @@ $("#check-vive").click(function () { if (JSON.parse($(this).val())) { $(this).va
 $("#botao-jogar").click(function () {
 
   if ($("#botao-jogar").text() == "Jogar!") {
-    $("#botao-jogar").text("Confirma?");
+    if (JSON.parse($("#check-cafe").val()) || JSON.parse($("#check-fogo").val()) || JSON.parse($("#check-proibido").val()) || JSON.parse($("#check-ditador").val()) || JSON.parse($("#check-vive").val())) {
+      $("#botao-jogar").text("Confirma?");
+    } else {
+      $("#botao-jogar").text("Selecione!");
+    }
   } else {
-    $("#seletor").css("display", "none")
-    $("#jogo").css("display", "block")
+    if (JSON.parse($("#check-cafe").val()) || JSON.parse($("#check-fogo").val()) || JSON.parse($("#check-proibido").val()) || JSON.parse($("#check-ditador").val()) || JSON.parse($("#check-vive").val())) {
 
-    if (JSON.parse($("#check-cafe").val())) {
-      for (i = 0; i < cartas_total.cafe.length; i++) {
-        desafios.push(cartas_total.cafe[i].desafio)
-        prendas.push(cartas_total.cafe[i].prenda)
+
+      $("#seletor").css("display", "none")
+      $("#jogo").css("display", "block")
+
+      if (JSON.parse($("#check-cafe").val())) {
+        for (i = 0; i < cartas_total.cafe.length; i++) {
+          desafios.push(cartas_total.cafe[i].desafio)
+          prendas.push(cartas_total.cafe[i].prenda)
+        };
       };
+
+      if (JSON.parse($("#check-fogo").val())) {
+        for (i = 0; i < cartas_total.fogo.length; i++) {
+          desafios.push(cartas_total.fogo[i].desafio)
+          prendas.push(cartas_total.fogo[i].prenda)
+        };
+      };
+
+      if (JSON.parse($("#check-proibido").val())) {
+        for (i = 0; i < cartas_total.proibido.length; i++) {
+          desafios.push(cartas_total.proibido[i].desafio)
+          prendas.push(cartas_total.proibido[i].prenda)
+        };
+      };
+
+      if (JSON.parse($("#check-ditador").val())) {
+        for (i = 0; i < cartas_total.ditador.length; i++) {
+          desafios.push(cartas_total.ditador[i].desafio)
+          prendas.push(cartas_total.ditador[i].prenda)
+        };
+      };
+
+      if (JSON.parse($("#check-vive").val())) {
+        for (i = 0; i < cartas_total.vive.length; i++) {
+          desafios.push(cartas_total.vive[i].desafio)
+          prendas.push(cartas_total.vive[i].prenda)
+        };
+      };
+      ranNums = gera_ranNums(desafios)
     };
 
-    if (JSON.parse($("#check-fogo").val())) {
-      for (i = 0; i < cartas_total.fogo.length; i++) {
-        desafios.push(cartas_total.fogo[i].desafio)
-        prendas.push(cartas_total.fogo[i].prenda)
-      };
-    };
-
-    if (JSON.parse($("#check-proibido").val())) {
-      for (i = 0; i < cartas_total.proibido.length; i++) {
-        desafios.push(cartas_total.proibido[i].desafio)
-        prendas.push(cartas_total.proibido[i].prenda)
-      };
-    };
-
-    if (JSON.parse($("#check-ditador").val())) {
-      for (i = 0; i < cartas_total.ditador.length; i++) {
-        desafios.push(cartas_total.ditador[i].desafio)
-        prendas.push(cartas_total.ditador[i].prenda)
-      };
-    };
-
-    if (JSON.parse($("#check-vive").val())) {
-      for (i = 0; i < cartas_total.vive.length; i++) {
-        desafios.push(cartas_total.vive[i].desafio)
-        prendas.push(cartas_total.vive[i].prenda)
-      };
-    };
-
-    ranNums = gera_ranNums(desafios)
 
   };
 

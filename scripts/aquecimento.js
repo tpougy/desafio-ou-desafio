@@ -17,8 +17,8 @@ Array.prototype.shuffle = function () {
 function gera_ranNums(comandos_recebidos) {
     let total = comandos_recebidos.length;
     let nums = []
-    for (i = 0; i < total; i++) {
-        nums.push(i)
+    for (k = 0; k < total; k++) {
+        nums.push(k)
     }
 
     return nums.shuffle();
@@ -45,11 +45,11 @@ $("#proxima-batata").click(() => {
         $("#texto-aquecimento").show();
     }
     if (fim != true) {
-        i++
-        $("#texto-aquecimento").text("foi " + i.toString());
-        if (i >= 3) {
+        $("#texto-aquecimento").text(data.comandos[ranNums[i]].texto);
+        if (i >= 2) {
             esquentando_pt1();
         }
+        i++
     }
 });
 
@@ -57,7 +57,7 @@ $("#btn-recomecar").click(() => {
     $(".card-recomecar").fadeOut(500);
     $("#red-background").fadeOut(500);
 
-    // ranNums = gera_ranNums(data.comandos);
+    ranNums = gera_ranNums(data.comandos);
     i = 0;
     n = 0;
     fim = false;
@@ -122,7 +122,7 @@ function countdown() {
 // };
 
 function esquentando_pt1() {
-    let interval = getRandomInt(5, 20);
+    let interval = getRandomInt(7, 25);
     setTimeout(() => {
         $("#red-background").fadeIn(10000)
         esquentando_pt2();
@@ -152,6 +152,7 @@ $.ajax({
     dataType: 'text',
     success: function (response) {
         data = JSON.parse(response); // convert to object;
+        ranNums = gera_ranNums(data.comandos);
     },
     error: function (err) {
         console.log(err);
