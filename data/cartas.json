@@ -1,6 +1,38 @@
 {
   "cafe": [
     {
+      "desafio": "Mostre a todos o saldo da sua conta bancária!",
+      "prenda": "Tome 1 shot!"
+    },
+    {
+      "desafio": "Conte uma piada! Se ninguém rir, você toma dois shots!",
+      "prenda": "Tome 3 shots!"
+    },
+    {
+      "desafio": "Saúde! Todo tomam um shot!",
+      "prenda": "Não tem como amarelar!"
+    },
+    {
+      "desafio": "Desafie um jogador para o jogo do sério! Quem perder toma um shot!",
+      "prenda": "Não tem como amarelar!"
+    },
+    {
+      "desafio": "Cachoeira!<br>Todos começam a beber ao mesmo tempo. O jogador que tirou essa carta pode parrar de beber quando quiser. Assim que ele parar o jogador à sua direita pode parar, e assim por diante.",
+      "prenda": "Não tem como amarelar!"
+    },
+    {
+      "desafio": "Todos do grupo apontam para uma pessoa beber. A pessoa mais votada tem que tomar um shot!",
+      "prenda": "Não tem como amarelar!"
+    },
+    {
+      "desafio": "Tome um shot sem usar as mãos!",
+      "prenda": "Vire sua bebida!"
+    },
+    {
+      "desafio": "Jogue 'Não Pode Piscar' com a @. Quem piscar antes toma 4 shots!",
+      "prenda": "Tome 4 shots!"
+    },
+    {
       "desafio": "Abra uma live no instagram por 1 minuto. Tome um shot para cada pessoa que entrar na live!",
       "prenda": "Tome 3 shots!"
     },
@@ -355,6 +387,22 @@
   ],
   "fogo": [
     {
+      "desafio": "Coloque um gelo na sua boca e passe para a boca para a @. Depois tome um shot!",
+      "prenda": "Termine sua bebida!"
+    },
+    {
+      "desafio": "Vende seus olhos! Alguém do grupo deve te dar um beijo, se vc acertar quem te beijou, todo mundo tem que terminar sua bebida! Se você errar vicê termina sua bebida",
+      "prenda": "Termine sua bebida!"
+    },
+    {
+      "desafio": "Diga 5 posições sexuais! Você tem 10 segundos!",
+      "prenda": "Não conseguiu? Tome 2 shots!"
+    },
+    {
+      "desafio": "Abra o zíper da @ com seus dentes!",
+      "prenda": "Tome 2 shots!"
+    },
+    {
       "desafio": "Diga a característica mais sexy de cada um da roda!",
       "prenda": "Tome 5 shots!"
     },
@@ -516,6 +564,22 @@
     }
   ],
   "proibido": [
+    {
+      "desafio": "Tente adivinhar um jogador que já fez um oral no carro. Se você acertar ele toma 2 shots! Se você errar, tome 2 shots você!",
+      "prenda": "Tome 3 shots!"
+    },
+    {
+      "desafio": "Dê um chupão na @!",
+      "prenda": "Tome 3 shots!"
+    },
+    {
+      "desafio": "Mostre sua bunda ao grupo!",
+      "prenda": "Vire sua bebida!"
+    },
+    {
+      "desafio": "Revele um fetiche sexual seu para o grupo!",
+      "prenda": "Tome 3 shots!"
+    },
     {
       "desafio": "Dê uma volta na roda de 4. Cada jogador deve te dar um tapa na bunda!",
       "prenda": "Tome 4 shots!"

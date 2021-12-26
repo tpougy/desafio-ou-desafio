@@ -141,7 +141,7 @@ function esquentando_pt2() {
 }
 
 
-// requisição do dados dos complementos aleatórios
+// requisição do dados dos comandos
 $.ajax({
     url: "https://tpougy.github.io/desafio-ou-desafio/data/aquecimento.json",
     type: "get",
