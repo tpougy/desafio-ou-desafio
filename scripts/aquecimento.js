@@ -19,6 +19,7 @@ function gera_ranNums(comandos_recebidos) {
     let nums = []
     for (k = 0; k < total; k++) {
         nums.push(k)
+        nums.push(k)
     }
 
     return nums.shuffle();
@@ -42,7 +43,7 @@ var i = 0;
 var fim = false;
 var n = 0;
 var j = 0
-var ranNums
+var ranNums = gera_ranNums(data.comandos);
 
 $("#proxima-batata").click(() => {
     if (n == 0) {
@@ -54,7 +55,7 @@ $("#proxima-batata").click(() => {
     }
     if (fim != true) {
         $("#texto-aquecimento").text(data.comandos[ranNums[i]].texto);
-        if (i >= 2) {
+        if (i >= 1) {
             esquentando_pt1();
         }
         i++
@@ -65,7 +66,6 @@ $("#btn-recomecar").click(() => {
     $(".card-recomecar").fadeOut(500);
     $("#red-background").fadeOut(500);
 
-    ranNums = gera_ranNums(data.comandos);
     i = 0;
     j = 0
     n = 0;
@@ -119,7 +119,7 @@ function esquentando_pt1() {
 
 
 function esquentando_pt2() {
-    console.log("passou " + j.toString())
+    // console.log("passou " + j.toString())
     setTimeout(() => {
 
         // correção pq estava bugado tocando o som mais de uma vez
@@ -130,7 +130,7 @@ function esquentando_pt2() {
         } else {
             $(".titulo-recomecar").text("Quem está segurando toma " + numShots + " shots!")
         }
-        console.log("entrou " + j.toString())
+        // console.log("entrou " + j.toString())
         $(".card-recomecar").fadeIn(150)
         fim = true;
 
