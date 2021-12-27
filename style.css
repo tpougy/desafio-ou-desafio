@@ -29,6 +29,48 @@ footer{
 }
 
 /* AQUECIMENTO */
+#btn-acabou{
+    position: relative;
+    width: 50%;
+    margin-left:25%;
+}
+
+.card-acabou{
+    display:none;
+    width: 65%;
+    height: 45%;
+    position: absolute;
+    top: 27%;
+    left: 15%;
+    background-color: #D7DBDD ;
+    padding: 5% 5%;
+}
+
+.titulo-acabou{
+    color:red;
+    font-weight: bold;
+}
+
+.card-status{
+    display:block;
+    width: 17%;
+    height: 10%;
+    position: absolute;
+    top: 72%;
+    left: 78%;
+    background-color: #a9f8b6 ;
+    /* transform: rotate(+15deg); */
+    padding: 1.5% 2%;
+}
+
+.txt-status{
+    display: inline;
+}
+
+#total-status{
+    font-weight: bold;
+}
+
 #btn-recomecar{
     position: relative;
     width: 50%;

@@ -43,22 +43,28 @@ var i = 0;
 var fim = false;
 var n = 0;
 var j = 0
+var total_comandos
 var ranNums
 
 $("#proxima-batata").click(() => {
-    if (n == 0) {
-        n++;
-        countdown();
-        $(".titulo-aquecimento").hide();
-        $("#proxima-batata").text("Próximo");
-        $("#texto-aquecimento").show();
-    }
-    if (fim != true) {
-        $("#texto-aquecimento").text(data.comandos[ranNums[i]].texto);
-        if (i >= 2) {
-            esquentando_pt1();
+    if (n == total_comandos + 1) {
+        $(".card-acabou").fadeIn(150)
+    } else {
+        $("#atual-status").text(n)
+        if (i == 0) {
+            countdown();
+            $(".titulo-aquecimento").hide();
+            $("#proxima-batata").text("Próximo");
+            $("#texto-aquecimento").show();
         }
-        i++
+        if (fim != true) {
+            $("#texto-aquecimento").text(data.comandos[ranNums[n]].texto);
+            if (i == 2) {
+                esquentando_pt1();
+            }
+            i++
+            n++
+        }
     }
 });
 
@@ -68,11 +74,12 @@ $("#btn-recomecar").click(() => {
 
     i = 0;
     j = 0
-    n = 0;
+    // n = 0;
     fim = false;
     $("#texto-aquecimento").text(" ");
     $("#proxima-batata").text("Iniciar");
 });
+
 
 function countdown() {
     // Parte 1
@@ -149,6 +156,8 @@ $.ajax({
     success: function (response) {
         data = JSON.parse(response); // convert to object;
         ranNums = gera_ranNums(data.comandos);
+        total_comandos = ranNums.length
+        $("#total-status").text(total_comandos);
     },
     error: function (err) {
         console.log(err);
