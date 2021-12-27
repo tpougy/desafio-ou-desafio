@@ -43,7 +43,7 @@ var i = 0;
 var fim = false;
 var n = 0;
 var j = 0
-var ranNums = gera_ranNums(data.comandos);
+var ranNums
 
 $("#proxima-batata").click(() => {
     if (n == 0) {
