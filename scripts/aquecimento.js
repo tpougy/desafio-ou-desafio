@@ -55,7 +55,7 @@ $("#proxima-batata").click(() => {
     }
     if (fim != true) {
         $("#texto-aquecimento").text(data.comandos[ranNums[i]].texto);
-        if (i >= 1) {
+        if (i >= 2) {
             esquentando_pt1();
         }
         i++
