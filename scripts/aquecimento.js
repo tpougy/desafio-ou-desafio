@@ -114,7 +114,7 @@ function countdown() {
 
 
 function esquentando_pt1() {
-    let interval = getRandomInt(7, 25);
+    let interval = getRandomInt(7, 18);
     setTimeout(() => {
         $("#red-background").fadeIn(10000)
         if (j == 0) {
