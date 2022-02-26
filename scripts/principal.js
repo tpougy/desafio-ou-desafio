@@ -43,10 +43,20 @@ function definir_desafio(modo) {
     x += 1;
   }
 
-  let y = ranNums[x];
+  let desafio_texto
+  let prenda_texto
 
-  let desafio_texto = desafios[y];
-  let prenda_texto = prendas[y];
+  if (x >= numDesafios) {
+    desafio_texto = "Acabaram os desafios selecionados!<br>Selecione mais desafios no menu para continuar!";
+    prenda_texto = "Fim!";
+  } else {
+
+    let y = ranNums[x];
+
+    desafio_texto = desafios[y];
+    prenda_texto = prendas[y];
+
+  }
 
   if (desafio_texto.indexOf("@") != -1) {
     let z = getRandomIntInclusive(0, 6)
@@ -146,6 +156,7 @@ $("#botao-jogar").click(function () {
         };
       };
       ranNums = gera_ranNums(desafios)
+      numDesafios = ranNums.length
     };
 
 
@@ -231,3 +242,4 @@ var desafios = [];
 var prendas = [];
 
 var ranNums;
+var numDesafios;
