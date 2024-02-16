@@ -1,6 +1,50 @@
 {
   "cafe": [
     {
+      "desafio": "Você foi escalado para dirigir um filme do grupo. Escolha um par romântico, um herói, um vilão e quem será o alívio cômico",
+      "prenda": "Tome 1 shot!"
+    },
+    {
+      "desafio": "Você será vendado e alguém do grupo te dará um beijo na bochecha. Se acertar quem foi, a pessoa bebe 2 shot, se errar, você bebe 1 shot.",
+      "prenda": "Tome 2 shot!"
+    },
+    {
+      "desafio": "Teste sua pontaria!<br>Jogue um snak na boca da pessoa do outro lado da roda",
+      "prenda": "Se errar tome você 2 shots! Se acertar a pessoa toma 2 shots!"
+    },
+    {
+      "desafio": "Façam um pique-esconde, vc será o pegador. Dê 1 min para os demais se esconderem. O primeiro a ser descoberto bebe 3 shots",
+      "prenda": "Não tem como amarelar!"
+    },
+    {
+      "desafio": "Você não compartilhou aquela corrente no Facebook e agora foi transformado em um cachorro! Beba um copo d'água de um prato usando a língua!",
+      "prenda": "Tome 3 shot!"
+    },
+    {
+      "desafio": "Diga quem é o casal que vc mais shipa dentre os participantes",
+      "prenda": "Tome 1 shot!"
+    },
+    {
+      "desafio": "Dispute uma briga de polegares com a 3ª pessoa à sua direita. O perdedor bebe um shot",
+      "prenda": "Não tem com amarelar!"
+    },
+    {
+      "desafio": "Todos farão um Flip Cup e o perdedor toma um shot por pessoa que ficou na sua frente",
+      "prenda": "Não tem com amarelar!"
+    },
+    {
+      "desafio": "Sensualizar ao som de Rhythm Is A Dancer por um 1 min",
+      "prenda": "Tome 2 shot!"
+    },
+    {
+      "desafio": "Beber um copo de Coca-Cola e dar um arroto soletrando ABC",
+      "prenda": "Tome 2 shot!"
+    },
+    {
+      "desafio": "Dê uma lambida no cangote da segunda pessoa à sua esquerda",
+      "prenda": "Tome 1 shot!"
+    },
+    {
       "desafio": "Mostre a todos o saldo da sua conta bancária!",
       "prenda": "Tome 1 shot!"
     },
@@ -122,7 +166,7 @@
     },
     {
       "desafio": "Sorte sua!<br>Você pode escolher alguém para levar a próxima consequência que você sofrer!",
-      "prenda": "Não dá para arregar!"
+      "prenda": "Não dá para amarelar!"
     },
     {
       "desafio": "Se FUD#$%!!!<br>Você sofrerá o desafio com a proxima pessoa que sofrer um.",
@@ -278,7 +322,7 @@
     },
     {
       "desafio": "Segure a mão do jogador à sua esquerda e façam tudo de mãos dadas até que os dois terminem suas bebidas.",
-      "prenda": "Arregaram? Tomem 4 shots cada um!"
+      "prenda": "amarelar!am? Tomem 4 shots cada um!"
     },
     {
       "desafio": "Encoste a sua língua no seu nariz, se não conseguir encoste sua língua no nariz de outro jogador!",
@@ -306,7 +350,7 @@
     },
     {
       "desafio": "O último jogador a dar um tapa na testa toma 1 shot!",
-      "prenda": "Não tem com arregar!"
+      "prenda": "Não tem com amarelar!"
     },
     {
       "desafio": "Segure sua bebida com as duas mãos e beba sem dobrar os braços!",
@@ -322,19 +366,19 @@
     },
     {
       "desafio": "Gêmeos!<br>Escolha um jogador, ele deve beber a mesma quantidade que você por 2 rodadas",
-      "prenda": "Não tem como arregar"
+      "prenda": "Não tem como amarelar!"
     },
     {
       "desafio": "Gire uma garrafa no meio da roda. Troque de lugar e bebida com quem a boca apontar!",
-      "prenda": "Não da para arregar..."
+      "prenda": "Não da para amarelar!..."
     },
     {
       "desafio": "Escolha alguém para ser o seu ESPELHO, sempre que você beber ela bebe também!",
-      "prenda": "Nao da para arregar..."
+      "prenda": "Nao da para amarelar!..."
     },
     {
       "desafio": "AGORA É SUA VEZ!<br>Escolha um desafio para qualquer pessoa da roda!",
-      "prenda": "Se a pessoa arregar tomem juntos 3 shots!"
+      "prenda": "Se a pessoa amarelar! tomem juntos 3 shots!"
     },
     {
       "desafio": "Se FUD#$%!<br>Deixe que o grupo escolha um desafio para você!",
@@ -342,11 +386,11 @@
     },
     {
       "desafio": "ESTÁ EM SUAS MÃOS!<br>Jogue uma moeda. Se der cara tire o próximo desafio e escolha alguem para cumprí-lo, se der coroa faça-o você mesmo!",
-      "prenda": "Quem arregar toma 2 shots!"
+      "prenda": "Quem amarelar! toma 2 shots!"
     },
     {
       "desafio": "Tome um shot ao estilo tequilero!",
-      "prenda": "Não dá para arregar..."
+      "prenda": "Não dá para amarelar!..."
     },
     {
       "desafio": "Faça o desafio da próxima pessoa com suas mãos no bolso dela!",
@@ -354,7 +398,7 @@
     },
     {
       "desafio": "Desafio Geral!<br>Joguem 1 rodada de - Eu Nunca -, você começa!",
-      "prenda": "Não da para arregar!"
+      "prenda": "Não da para amarelar!"
     },
     {
       "desafio": "Desafio Geral!<br>Cante uma música sertaneja, quem não souber cantar junto tome 2 shots!",
@@ -386,6 +430,14 @@
     }
   ],
   "fogo": [
+    {
+      "desafio": "Todos devem passar uma folha de papel da sua boca para a boca da pessoa à direita, sem usar as mãos. Quem deixar cair bebe 3 shots",
+      "prenda": "Termine sua bebida!"
+    },
+    {
+      "desafio": "Você deve vestir a sua roupa íntima por cima da roupa por uma rodada!",
+      "prenda": "Termine sua bebida!"
+    },
     {
       "desafio": "Coloque um gelo na sua boca e passe para a boca para a @. Depois tome um shot!",
       "prenda": "Termine sua bebida!"
@@ -524,7 +576,7 @@
     },
     {
       "desafio": "Escolha 2 pessoas para darem um beijinho",
-      "prenda": "Elas arregaram? Que tomem 2 shots cada!"
+      "prenda": "Elas amarelar!am? Que tomem 2 shots cada!"
     },
     {
       "desafio": "Deixe uma pessoa à sua escolha te beijar onde ela quiser!",
@@ -638,7 +690,7 @@
     },
     {
       "desafio": "Pelo resto da noite, toda vez que tiver que ir fazer xixi você deve levar alguém do sexo oposto com você!",
-      "prenda": "Toda vez que arregar você deve tomar 3 shots!"
+      "prenda": "Toda vez que amarelar! você deve tomar 3 shots!"
     },
     {
       "desafio": "Tire duas peças de roupa por 1 rodada.",
@@ -686,6 +738,10 @@
     }
   ],
   "ditador": [
+    {
+      "desafio": "Ditador!<br>Toda vez que você gritar LOMBADA todos devem pular.",
+      "prenda": "Se o ditador falou não dá pra amarelar..."
+    },
     {
       "desafio": "Ditador!<br>Tome um shot para cada piercing e tatoo que tiver.",
       "prenda": "Se o ditador falou não dá pra amarelar..."
@@ -802,7 +858,7 @@
     },
     {
       "desafio": "De uma mordida na bunda da @!",
-      "prenda": "Ela amarelou? Tome 3 shots!"
+      "prenda": "Tome 3 shots!"
     },
     {
       "desafio": "Receba uma torcida no mamilo da @!",
@@ -859,6 +915,16 @@
     {
       "desafio": "Vire sua bebida",
       "prenda": "Tome 4 shots!"
+    }
+  ],
+  "pool": [
+    {
+      "desafio": "Pool Party!<br>Você está na Argentina e jogaram 1 moeda na piscina. Mergulhe e recupere o seu tesouro! Você tem um minuto, se não conseguir tome 3 shots!",
+      "prenda": "Tome 2 shots"
+    },
+    {
+      "desafio": "Pool Party!<br>Haja fôlego... Todos mergulham e o primeiro a retornar à superfície bebe 5 shots",
+      "prenda": "Não da para amarelar!"
     }
   ]
 }

@@ -104,6 +104,8 @@ $("#check-ditador").click(function () { if (JSON.parse($(this).val())) { $(this)
 
 $("#check-vive").click(function () { if (JSON.parse($(this).val())) { $(this).val("false") } else { $(this).val("true") } });
 
+$("#check-pool").click(function () { if (JSON.parse($(this).val())) { $(this).val("false") } else { $(this).val("true") } });
+
 // cartas selecionadas
 
 $("#botao-jogar").click(function () {
@@ -155,6 +157,14 @@ $("#botao-jogar").click(function () {
           prendas.push(cartas_total.vive[i].prenda)
         };
       };
+
+      if (JSON.parse($("#check-pool").val())) {
+        for (i = 0; i < cartas_total.pool.length; i++) {
+          desafios.push(cartas_total.pool[i].desafio)
+          prendas.push(cartas_total.pool[i].prenda)
+        };
+      };
+
       ranNums = gera_ranNums(desafios)
       numDesafios = ranNums.length
     };
@@ -211,6 +221,7 @@ $.ajax({
     $("#num-cartas-proibido").text((cartas_total.proibido.length - 1).toString() + " cartas");
     $("#num-cartas-ditador").text((cartas_total.ditador.length - 1).toString() + " cartas");
     $("#num-cartas-vive").text((cartas_total.vive.length - 1).toString() + " cartas");
+    $("#num-cartas-pool").text((cartas_total.pool.length - 1).toString() + " cartas");
 
   },
   error: function (err) {
