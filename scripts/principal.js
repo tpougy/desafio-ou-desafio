@@ -111,13 +111,13 @@ $("#check-pool").click(function () { if (JSON.parse($(this).val())) { $(this).va
 $("#botao-jogar").click(function () {
 
   if ($("#botao-jogar").text() == "Jogar!") {
-    if (JSON.parse($("#check-cafe").val()) || JSON.parse($("#check-fogo").val()) || JSON.parse($("#check-proibido").val()) || JSON.parse($("#check-ditador").val()) || JSON.parse($("#check-vive").val())) {
+    if (JSON.parse($("#check-cafe").val()) || JSON.parse($("#check-fogo").val()) || JSON.parse($("#check-proibido").val()) || JSON.parse($("#check-pool").val()) || JSON.parse($("#check-ditador").val()) || JSON.parse($("#check-vive").val())) {
       $("#botao-jogar").text("Confirma?");
     } else {
       $("#botao-jogar").text("Selecione!");
     }
   } else {
-    if (JSON.parse($("#check-cafe").val()) || JSON.parse($("#check-fogo").val()) || JSON.parse($("#check-proibido").val()) || JSON.parse($("#check-ditador").val()) || JSON.parse($("#check-vive").val())) {
+    if (JSON.parse($("#check-cafe").val()) || JSON.parse($("#check-fogo").val()) || JSON.parse($("#check-proibido").val()) || JSON.parse($("#check-pool").val()) || JSON.parse($("#check-ditador").val()) || JSON.parse($("#check-vive").val())) {
 
 
       $("#seletor").css("display", "none")
@@ -216,12 +216,12 @@ $.ajax({
   success: function (response) {
     cartas_total = JSON.parse(response); // convert to object
 
-    $("#num-cartas-cafe").text((cartas_total.cafe.length - 1).toString() + " cartas");
-    $("#num-cartas-fogo").text((cartas_total.fogo.length - 1).toString() + " cartas");
-    $("#num-cartas-proibido").text((cartas_total.proibido.length - 1).toString() + " cartas");
-    $("#num-cartas-ditador").text((cartas_total.ditador.length - 1).toString() + " cartas");
-    $("#num-cartas-vive").text((cartas_total.vive.length - 1).toString() + " cartas");
-    $("#num-cartas-pool").text((cartas_total.pool.length - 1).toString() + " cartas");
+    $("#num-cartas-cafe").text((cartas_total.cafe.length).toString() + " cartas");
+    $("#num-cartas-fogo").text((cartas_total.fogo.length).toString() + " cartas");
+    $("#num-cartas-proibido").text((cartas_total.proibido.length).toString() + " cartas");
+    $("#num-cartas-ditador").text((cartas_total.ditador.length).toString() + " cartas");
+    $("#num-cartas-vive").text((cartas_total.vive.length).toString() + " cartas");
+    $("#num-cartas-pool").text((cartas_total.pool.length).toString() + " cartas");
 
   },
   error: function (err) {
